@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>A Pok&eacute;mon Calculator</title>
+    <title>Theorymon Calculator</title>
     <link type="text/css" rel="stylesheet" href="./select2/select2.css" />
     <link type="text/css" rel="stylesheet" href="./ap_calc.css?v2" />
     <link type="text/css" rel="stylesheet" href="./bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="./theorymon_styles.css" />
 </head>
 
 <body>
@@ -27,7 +28,7 @@
 <div class="wrapper">
 
     <div>
-        <span class="title-text">Pok&eacute;mon Damage Calculator</span>
+        <span class="title-text">BD OU Theorymon Damage Calculator</span>
         <span title="Select the generation.">
             <input class="gen btn-input" type="radio" name="gen" value="1" id="gen1" /><label class="btn btn-small btn-left" for="gen1">RBY</label>
             <input class="gen btn-input" type="radio" name="gen" value="2" id="gen2" /><label class="btn btn-small btn-mid" for="gen2">GSC</label>
@@ -98,6 +99,24 @@
             </div>
         </div>
     </div>
+
+    <div class="theorymon-mods-info-container">
+        <div class="theorymon-mods-info-row">
+            <div class="theorymon-mods-info-col theorymon-mods-info-col-offset">
+                <label id="newType">New Type:</label><br/>
+                <label id="newAbility">New Ability:</label><br/>
+                <label id="newStat">New Stat:</label><br/>
+                <label id="newMove">New Move:</label>
+            </div>
+            <div class="theorymon-mods-info-col">
+                <label id="newType2">New Type2:</label><br/>
+                <label id="newAbility2">New Ability2:</label><br/>
+                <label id="newStat2">New Stat2:</label><br/>
+                <label id="newMove2">New Move2:</label>
+            </div>
+        </div>
+    </div>
+
     <div class="main-result-group">
         <div class="big-text"><span id="mainResult">Loading...</span>
         </div>
@@ -1145,7 +1164,7 @@
     <script type="text/javascript" src="./js/ko_chance.js"></script>
     <script type="text/javascript" src="./js/moveset_import.js"></script>
 </div>
-
+    
     <div style="clear:both;padding:20px;text-align:right"><p><a href="https://github.com/Zarel/honko-damagecalc" target="_blank">GitHub repository for the damage calculator</a></p></div>
 
 </body>

@@ -66,6 +66,16 @@ function calculate() {
     bestResult.change();
     $("#resultHeaderL").text(p1.name + "'s Moves (select one to show detailed results)");
     $("#resultHeaderR").text(p2.name + "'s Moves (select one to show detailed results)");
+
+    $("#newType").text("New Type: " + p1.typeMod);
+    $("#newAbility").text("New Ability: " + p1.abilityMod);
+    $("#newStat").text("New Stat: " + p1.statMod);
+    $("#newMove").text("New Move: " + p1.moveMod);
+
+    $("#newType2").text("New Type: " + p2.typeMod);
+    $("#newAbility2").text("New Ability: " + p2.abilityMod);
+    $("#newStat2").text("New Stat: " + p2.statMod);
+    $("#newMove2").text("New Move: " + p2.moveMod);
 }
 
 $(".result-move").change(function() {

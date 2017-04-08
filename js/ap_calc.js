@@ -352,6 +352,11 @@ function Pokemon(pokeInfo) {
         this.boosts = [];
         this.stats = [];
         this.evs = [];
+
+        this.typeMod = (pokemon.nt)?pokemon.nt:"--";
+        this.abilityMod = (pokemon.na)?pokemon.na:"--";
+        this.statMod = (pokemon.ns)?pokemon.ns:"--";
+        this.moveMod = (pokemon.nm)?pokemon.nm:"--";
         
         var set = setdex[this.name][setName];
         this.level = set.level;
@@ -407,8 +412,15 @@ function Pokemon(pokeInfo) {
         } else {
             this.name = setName.substring(0, setName.indexOf(" ("));
         }
+        var pokemon = pokedex[this.name];
         this.type1 = pokeInfo.find(".type1").val();
         this.type2 = pokeInfo.find(".type2").val();
+        
+        this.typeMod = (pokemon.nt)?pokemon.nt:"--";
+        this.abilityMod = (pokemon.na)?pokemon.na:"--";
+        this.statMod = (pokemon.ns)?pokemon.ns:"--";
+        this.moveMod = (pokemon.nm)?pokemon.nm:"--";
+        
         this.level = ~~pokeInfo.find(".level").val();
         this.maxHP = ~~pokeInfo.find(".hp .total").text();
         this.curHP = ~~pokeInfo.find(".current-hp").val();

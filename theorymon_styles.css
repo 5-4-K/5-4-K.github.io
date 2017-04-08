@@ -1,0 +1,19 @@
+.theorymon-mods-info-container *{
+    width : 100%;
+    box-sizing: border-box;
+}
+.theorymon-mods-info-row:before, 
+.theorymon-mods-info-row:after {
+    content:"";
+    display: table ;
+     clear:both;
+}
+.theorymon-mods-info-col {
+    float: left;
+    min-height: 1px; 
+    width: 34%; 
+    padding: 12px;
+}
+.theorymon-mods-info-col-offset {
+	margin-right: 395px;
+}

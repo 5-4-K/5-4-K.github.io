@@ -11430,8 +11430,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "at": 120,
       "df": 130,
       "sa": 55,
-      "sd": 65,
-      "sp": 45
+      "sd": 80,
+      "sp": 60
     },
     "w": 316.0,
     "ab": "Galvanize",
@@ -11549,9 +11549,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "hp": 95,
       "at": 115,
       "df": 90,
-      "sa": 80,
+      "sa": 60,
       "sd": 90,
-      "sp": 60
+      "sp": 110
     },
     "w": 83.0,
     "nm": "Sucker Punch",
@@ -12606,7 +12606,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "df": 98,
       "sa": 50,
       "sd": 98,
-      "sp": 72
+      "sp": 102
     },
     "w": 47.2,
     "ab": "Queenly Majesty",
@@ -12617,7 +12617,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "t1": "Fire",
     "t2": "Dragon",
     "bs": {
-      "hp": 60,
+      "hp": 90,
       "at": 78,
       "df": 135,
       "sa": 91,

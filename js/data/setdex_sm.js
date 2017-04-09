@@ -1,4 +1,4 @@
-pvar SETDEX_SM = {
+var SETDEX_SM = {
 	"Abomasnow": {
 		"ORAS NU Mixed Attacker": {"level":100,"evs":{"at":4,"sp":252,"sa":252},"nature":"Hasty","ability":"Snow Warning","item":"Life Orb","moves":["Blizzard","Giga Drain","Earthquake","Ice Shard"]},
 		"ORAS NU Swords Dance": {"level":100,"evs":{"at":252,"sp":252,"sa":4},"nature":"Hasty","ability":"Snow Warning","item":"Life Orb","moves":["Swords Dance","Ice Shard","Seed Bomb","Blizzard"]},

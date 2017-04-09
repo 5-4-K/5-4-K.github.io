@@ -357,6 +357,7 @@ function Pokemon(pokeInfo) {
         this.abilityMod = (pokemon.na)?pokemon.na:"--";
         this.statMod = (pokemon.ns)?pokemon.ns:"--";
         this.moveMod = (pokemon.nm)?pokemon.nm:"--";
+        this.mechanicChange = (pokemon.mc)?pokemon.mc:"--";
         
         var set = setdex[this.name][setName];
         this.level = set.level;
@@ -420,6 +421,7 @@ function Pokemon(pokeInfo) {
         this.abilityMod = (pokemon.na)?pokemon.na:"--";
         this.statMod = (pokemon.ns)?pokemon.ns:"--";
         this.moveMod = (pokemon.nm)?pokemon.nm:"--";
+        this.mechanicChange = (pokemon.mc)?pokemon.mc:"--";
         
         this.level = ~~pokeInfo.find(".level").val();
         this.maxHP = ~~pokeInfo.find(".hp .total").text();

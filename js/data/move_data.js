@@ -3079,7 +3079,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     'Shadow Punch': { zp: 120 },
     'Sheer Cold': { zp: 180 },
     'Shell Trap': {
-        bp: 150,
+        bp: 180,
         type: 'Fire',
         category: 'Special',
         isSpread: true,
@@ -3220,7 +3220,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     'Thunder Punch': { zp: 140 },
     'Tri Attack': { zp: 160 },
     'Trop Kick': {
-        bp: 70,
+        bp: 80,
         type: 'Grass',
         category: 'Physical',
         hasSecondaryEffect: true,

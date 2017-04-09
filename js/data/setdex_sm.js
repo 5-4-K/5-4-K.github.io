@@ -1,4 +1,4 @@
-var SETDEX_SM = {
+pvar SETDEX_SM = {
 	"Abomasnow": {
 		"ORAS NU Mixed Attacker": {"level":100,"evs":{"at":4,"sp":252,"sa":252},"nature":"Hasty","ability":"Snow Warning","item":"Life Orb","moves":["Blizzard","Giga Drain","Earthquake","Ice Shard"]},
 		"ORAS NU Swords Dance": {"level":100,"evs":{"at":252,"sp":252,"sa":4},"nature":"Hasty","ability":"Snow Warning","item":"Life Orb","moves":["Swords Dance","Ice Shard","Seed Bomb","Blizzard"]},
@@ -1618,6 +1618,7 @@ var SETDEX_SM = {
 		"UU Showdown Usage": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Adamant","ability":"Bulletproof","item":"Choice Specs","moves":["Poison Jab","Clanging Scales","Dragon Dance","Focus Blast"]},
 		"OU Autotomize": {"level":100,"evs":{"at":28,"sp":228,"sa":252},"nature":"Rash","ability":"Bulletproof","item":"Life Orb","moves":["Autotomize","Clanging Scales","Focus Blast","Poison Jab"]},
 		"VGC17 Fightinium Z": {"level":50,"evs":{"hp":244,"sp":12,"sa":252},"nature":"Modest","ability":"Bulletproof","item":"Fightinium Z","moves":["Focus Blast","Clanging Scales","Flamethrower","Protect"]},
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Jolly","ability":"Tough Claws","item":"Lum Berry","moves":["Dragon Hammer","Close Combat","Earthquake","Dragon Dance"]},
 	},
 	"Krabby": {
 		"ORAS LC Boosting Sweeper": {"level":5,"evs":{"sd":76,"df":36,"at":236,"hp":116,"sp":36},"nature":"Adamant","ability":"Hyper Cutter","item":"Eviolite","moves":["Agility","Swords Dance","Crabhammer","Knock Off"]},
@@ -2128,6 +2129,7 @@ var SETDEX_SM = {
 	"Necrozma": {
 		"UU Showdown Usage": {"level":100,"evs":{"df":252,"hp":252,"sa":4},"nature":"Bold","ability":"Prism Armor","item":"Leftovers","moves":["Psychic","Stealth Rock","Moonlight","Thunder Wave"]},
 		"OU Stored Power": {"level":100,"evs":{"df":144,"hp":252,"sp":112},"nature":"Bold","ability":"Prism Armor","item":"Leftovers","moves":["Calm Mind","Morning Sun","Stored Power","Iron Defense"]},
+		"Theorymon Modification": {"level":100,"evs":{"df":144,"hp":252,"sp":112},"nature":"Bold","ability":"Prism Armor","item":"Leftovers","moves":["Calm Mind","Morning Sun","Stored Power","Iron Defense"]},
 	},
 	"Nidoking": {
 		"UU Showdown Usage": {"level":100,"evs":{"sd":4,"sp":252,"sa":252},"nature":"Timid","ability":"Sheer Force","item":"Life Orb","moves":["Earth Power","Sludge Wave","Ice Beam","Stealth Rock"]},
@@ -2346,6 +2348,7 @@ var SETDEX_SM = {
 	"Primarina": {
 		"UU Choice Specs": {"level":100,"evs":{"df":4,"sp":252,"sa":252},"nature":"Timid","ability":"Torrent","item":"Choice Specs","moves":["Hydro Pump","Moonblast","Psychic","Scald"]},
 		"OU Choice Specs": {"level":100,"evs":{"hp":172,"sp":84,"sa":252},"nature":"Modest","ability":"Torrent","item":"Choice Specs","moves":["Hydro Pump","Moonblast","Psychic","Hidden Power Fire"]},
+		"Theorymon modification": {"level":100,"evs":{"hp":252,"sp":4,"sa":252},"nature":"Modest","ability":"Adaptability","item":"Choice Specs","moves":["Hydro Pump","Moonblast","Psychic","Hidden Power Fire"]},
 	},
 	"Primeape": {
 		"ORAS NU Choice Band": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Jolly","ability":"Defiant","item":"Choice Band","moves":["Close Combat","U-turn","Stone Edge","Earthquake"]},
@@ -2585,6 +2588,7 @@ var SETDEX_SM = {
 	},
 	"Salazzle": {
 		"Monotype Nasty Plot Sweeper (Poison)": {"level":100,"evs":{"sd":4,"sp":252,"sa":252},"nature":"Timid","ability":"Corrosion","item":"Life Orb","moves":["Nasty Plot","Fire Blast","Sludge Wave","Hidden Power Ground"]},
+		"Theorymon Modification": {"level":100,"evs":{"sd":4,"sp":252,"sa":252},"nature":"Timid","ability":"Corrosion","item":"Life Orb","moves":["Nasty Plot","Fire Blast","Sludge Wave","Hidden Power Ground"]},
 	},
 	"Samurott": {
 		"ORAS NU Swords Dance": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Adamant","ability":"Torrent","item":"Lum Berry","moves":["Swords Dance","Aqua Jet","Waterfall","Megahorn"]},
@@ -3165,6 +3169,7 @@ var SETDEX_SM = {
 	},
 	"Tsareena": {
 		"UU Rapid Spin": {"level":100,"evs":{"df":96,"hp":252,"sp":160},"nature":"Impish","ability":"Queenly Majesty","item":"Leftovers","moves":["Rapid Spin","Trop Kick","Synthesis","U-turn"]},
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Adamant","ability":"Queenly Majesty","item":"Leftovers","moves":["Trop Kick","Play Rough","Synthesis","Rapid Spin"]},
 	},
 	"Turtwig": {
 		"ORAS LC Stealth Rock": {"level":5,"evs":{"sd":236,"df":244,"sp":28},"nature":"Careful","ability":"Overgrow","item":"Eviolite","moves":["Stealth Rock","Synthesis","Bullet Seed","Superpower"]},
@@ -3559,4 +3564,25 @@ var SETDEX_SM = {
 		"CAP Mixed Attacker": {"level":100,"evs":{"sp":252,"sa":252,"at":4},"nature":"Hasty","ability":"Lightning Rod","item":"Life Orb","moves":["Dark Pulse","Close Combat","Psychic","Vacuum Wave"]},
 		"CAP Special Attacker": {"level":100,"evs":{"hp":4,"sa":252,"sp":252},"nature":"Timid","ability":"Lightning Rod","item":"Life Orb","moves":["Focus Blast","Dark Pulse","Psychic","Vacuum Wave"]},
 	},
+	"Golisopod": {
+		"Theorymon modification": {"level":100,"evs":{"hp":252,"df":252,"at":4},"nature":"Impish","ability":"Intimidate","item":"Rocky Helmet","moves":["Leech Life","Toxic","Spikes","Aqua Jet"]},
+	},
+	"Exeggutor-Alola": {
+		"Theorymon modification": {"level":100,"evs":{"hp":252,"sa":252,"sp":4},"nature":"Modest","ability":"Contrary","item":"Life Orb","moves":["Draco Meteor","Leaf Storm","Hidden Power Fire","Synthesis"]},
+	},
+	"Palossand": {
+		"Theorymon modification": {"level":100,"evs":{"hp":252,"df":252,"sd":4},"nature":"Impish","ability":"Water Compaction","item":"Leftovers","moves":["Stealth Rock"]},
+	},
+	"Incineroar": {
+		"Theorymon modification": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Jolly","ability":"Intimidate","item":"Choice Scarf","moves":["Darkest Lariat","Flare Blitz","Sucker Punch","Earthquake"]},
+	},
+	"Golem-Alola": {
+		"Theorymon modification": {"level":100,"evs":{"hp":252,"at":252,"sd":4},"nature":"Adamant","ability":"Magnet Pull","item":"Assault Vest","moves":["Earthquake","Wild Charge","Fire Punch","Stone Edge"]},
+	},
+	"Turtonator": {
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"sa":252,"sp":252},"nature":"Timid","ability":"Solid Rock","item":"White Herb","moves":["Shell Trap","Dragon Pulse","Fire Blast","Shell Smash"]},
+	},
+	"Wishiwashi": {
+		"Theorymon modification": {"level":100,"evs":{"hp":252,"sa":252,"sp":4},"nature":"Modest","ability":"Schooling","item":"Leftovers","moves":["Hydro Pump","Ice Beam","Hidden Power Fire","Scald"]},
+	}
 };

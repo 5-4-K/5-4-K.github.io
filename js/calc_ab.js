@@ -71,11 +71,13 @@ function calculate() {
     $("#newAbility").text("New Ability: " + p1.abilityMod);
     $("#newStat").text("New Stat: " + p1.statMod);
     $("#newMove").text("New Move: " + p1.moveMod);
+    $("#newMechanic").text("Mechanic Changes: " + p1.mechanicChange);
 
     $("#newType2").text("New Type: " + p2.typeMod);
     $("#newAbility2").text("New Ability: " + p2.abilityMod);
     $("#newStat2").text("New Stat: " + p2.statMod);
     $("#newMove2").text("New Move: " + p2.moveMod);
+    $("#newMechanic2").text("Mechanic Changes: " + p2.mechanicChange);
 }
 
 $(".result-move").change(function() {

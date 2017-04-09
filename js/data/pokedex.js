@@ -11423,8 +11423,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 20.3
   },
   "Golem-Alola": {
-    "t1": "Rock",
-    "t2": "Electric",
+    "t1": "Electric",
+    "t2": "Ground",
     "bs": {
       "hp": 80,
       "at": 120,
@@ -11437,6 +11437,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "ab": "Galvanize",
     "nm": "Fire Punch",
     "ns": "+15SpD, +15Spe",
+    "nt": "Electric/Ground",
   },
   "Golisopod": {
     "t1": "Bug",

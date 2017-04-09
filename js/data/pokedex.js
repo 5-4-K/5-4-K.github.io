@@ -11435,6 +11435,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 316.0,
     "ab": "Galvanize",
+    "nm": "Fire Punch",
+    "ns": "+15SpD, +15Spe",
   },
   "Golisopod": {
     "t1": "Bug",
@@ -11448,6 +11450,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 40
     },
     "w": 108.0,
+    "na": "Intimidate",
   },
   "Graveler-Alola": {
     "t1": "Rock",
@@ -11550,7 +11553,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 90,
       "sp": 60
     },
-    "w": 83.0
+    "w": 83.0,
+    "nm": "Sucker Punch",
+    "ns": "+50Spe, -20SpA"
   },
   "Jangmo-o": {
     "t1": "Dragon",
@@ -11601,6 +11606,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 85
     },
     "w": 78.2,
+    "na": "Tough Claws",
+    "nm": "Close Combat, Dragon Hammer",
   },
   "Litten": {
     "t1": "Fire",
@@ -11933,6 +11940,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 35
     },
     "w": 250.0,
+    "nm": "Stealth Rock",
   },
   "Passimian": {
     "t1": "Fighting",
@@ -12007,7 +12015,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 116,
       "sp": 60
     },
-    "w": 44.0
+    "w": 44.0,
+    "na": "Adaptability",
   },
   "Pyukumuku": {
     "t1": "Water",
@@ -12187,6 +12196,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 95
     },
     "w": 100.5,
+    "nm": "Recover",
   },
   "Silvally-Bug": {
     "t1": "Bug",
@@ -12199,7 +12209,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 95
     },
     "w": 100.5,
-    "ab": "RKS System"
+    "ab": "RKS System",
+    "nm": "Recover",
   },
   "Silvally-Dark": {
     "t1": "Dark",
@@ -12212,7 +12223,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 95
     },
     "w": 100.5,
-    "ab": "RKS System"
+    "ab": "RKS System",
+    "nm": "Recover",
   },
   "Silvally-Dragon": {
     "t1": "Dragon",
@@ -12225,7 +12237,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 95
     },
     "w": 100.5,
-    "ab": "RKS System"
+    "ab": "RKS System",
+    "nm": "Recover",
   },
   "Silvally-Electric": {
     "t1": "Electric",
@@ -12238,7 +12251,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 95
     },
     "w": 100.5,
-    "ab": "RKS System"
+    "ab": "RKS System",
+    "nm": "Recover",
   },
   "Silvally-Fairy": {
     "t1": "Fairy",
@@ -12251,7 +12265,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 95
     },
     "w": 100.5,
-    "ab": "RKS System"
+    "ab": "RKS System",
+    "nm": "Recover",
   },
   "Silvally-Fighting": {
     "t1": "Fighting",
@@ -12264,7 +12279,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 95
     },
     "w": 100.5,
-    "ab": "RKS System"
+    "ab": "RKS System",
+    "nm": "Recover",
   },
   "Silvally-Fire": {
     "t1": "Fire",
@@ -12277,7 +12293,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 95
     },
     "w": 100.5,
-    "ab": "RKS System"
+    "ab": "RKS System",
+    "nm": "Recover",
   },
   "Silvally-Flying": {
     "t1": "Flying",
@@ -12290,7 +12307,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 95
     },
     "w": 100.5,
-    "ab": "RKS System"
+    "ab": "RKS System",
+    "nm": "Recover",
   },
   "Silvally-Ghost": {
     "t1": "Ghost",
@@ -12303,7 +12321,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 95
     },
     "w": 100.5,
-    "ab": "RKS System"
+    "ab": "RKS System",
+    "nm": "Recover",
   },
   "Silvally-Grass": {
     "t1": "Grass",
@@ -12316,7 +12335,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 95
     },
     "w": 100.5,
-    "ab": "RKS System"
+    "ab": "RKS System",
+    "nm": "Recover",
   },
   "Silvally-Ground": {
     "t1": "Ground",
@@ -12329,7 +12349,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 95
     },
     "w": 100.5,
-    "ab": "RKS System"
+    "ab": "RKS System",
+    "nm": "Recover",
   },
   "Silvally-Ice": {
     "t1": "Ice",
@@ -12342,7 +12363,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 95
     },
     "w": 100.5,
-    "ab": "RKS System"
+    "ab": "RKS System",
+    "nm": "Recover",
   },
   "Silvally-Poison": {
     "t1": "Poison",
@@ -12355,7 +12377,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 95
     },
     "w": 100.5,
-    "ab": "RKS System"
+    "ab": "RKS System",
+    "nm": "Recover",
   },
   "Silvally-Psychic": {
     "t1": "Psychic",
@@ -12368,7 +12391,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 95
     },
     "w": 100.5,
-    "ab": "RKS System"
+    "ab": "RKS System",
+    "nm": "Recover",
   },
   "Silvally-Rock": {
     "t1": "Rock",
@@ -12381,7 +12405,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 95
     },
     "w": 100.5,
-    "ab": "RKS System"
+    "ab": "RKS System",
+    "nm": "Recover",
   },
   "Silvally-Steel": {
     "t1": "Steel",
@@ -12394,7 +12419,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 95
     },
     "w": 100.5,
-    "ab": "RKS System"
+    "ab": "RKS System",
+    "nm": "Recover",
   },
   "Silvally-Water": {
     "t1": "Water",
@@ -12407,7 +12433,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 95
     },
     "w": 100.5,
-    "ab": "RKS System"
+    "ab": "RKS System",
+    "nm": "Recover",
   },
   "Solgaleo": {
     "t1": "Psychic",
@@ -12572,6 +12599,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
   },
   "Tsareena": {
     "t1": "Grass",
+    "t2": "Fairy",
     "bs": {
       "hp": 72,
       "at": 120,
@@ -12581,7 +12609,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 72
     },
     "w": 47.2,
-    "ab": "Queenly Majesty"
+    "ab": "Queenly Majesty",
+    "nt": "Grass/Fairy",
+    "ns": "+30Spe",
   },
   "Turtonator": {
     "t1": "Fire",
@@ -12595,7 +12625,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 36
     },
     "w": 212.0,
-    "ab": "Shell Armor"
+    "ab": "Shell Armor",
+    "na": "Solid Rock",
+    "ns": "+30Hp",
   },
   "Type: Null": {
     "t1": "Normal",

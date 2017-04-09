@@ -11395,7 +11395,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 75,
       "sp": 45
     },
-    "w": 415.6
+    "w": 415.6,
+    "na": "Contrary",
   },
   "Fomantis": {
     "t1": "Grass",

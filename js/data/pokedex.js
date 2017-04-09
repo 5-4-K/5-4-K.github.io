@@ -11835,6 +11835,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 79
     },
     "w": 230.0,
+    "mc": "Prism Armor - Additional shed skin effect with slightly lower chance of activation",
   },
   "Nihilego": {
     "t1": "Rock",
@@ -11941,6 +11942,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 250.0,
     "nm": "Stealth Rock",
+    "mc": "Water Compaction - Water immunity with +1 Def and SpD boost",
   },
   "Passimian": {
     "t1": "Fighting",
@@ -12132,6 +12134,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 117
     },
     "w": 22.2,
+    "mc": "Corrosion - Poison type moves can damage steel types neutrally",
   },
   "Sandshrew-Alola": {
     "t1": "Ice",
@@ -12197,6 +12200,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 100.5,
     "nm": "Recover",
+    "mc": "RKS System - Memory items get 1.2x boost",
   },
   "Silvally-Bug": {
     "t1": "Bug",
@@ -12211,6 +12215,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
+    "mc": "RKS System - Memory items get 1.2x boost",
   },
   "Silvally-Dark": {
     "t1": "Dark",
@@ -12225,6 +12230,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
+    "mc": "RKS System - Memory items get 1.2x boost",
   },
   "Silvally-Dragon": {
     "t1": "Dragon",
@@ -12239,6 +12245,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
+    "mc": "RKS System - Memory items get 1.2x boost",
   },
   "Silvally-Electric": {
     "t1": "Electric",
@@ -12253,6 +12260,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
+    "mc": "RKS System - Memory items get 1.2x boost",
   },
   "Silvally-Fairy": {
     "t1": "Fairy",
@@ -12267,6 +12275,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
+    "mc": "RKS System - Memory items get 1.2x boost",
   },
   "Silvally-Fighting": {
     "t1": "Fighting",
@@ -12281,6 +12290,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
+    "mc": "RKS System - Memory items get 1.2x boost",
   },
   "Silvally-Fire": {
     "t1": "Fire",
@@ -12295,6 +12305,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
+    "mc": "RKS System - Memory items get 1.2x boost",
   },
   "Silvally-Flying": {
     "t1": "Flying",
@@ -12309,6 +12320,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
+    "mc": "RKS System - Memory items get 1.2x boost",
   },
   "Silvally-Ghost": {
     "t1": "Ghost",
@@ -12323,6 +12335,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
+    "mc": "RKS System - Memory items get 1.2x boost",
   },
   "Silvally-Grass": {
     "t1": "Grass",
@@ -12337,6 +12350,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
+    "mc": "RKS System - Memory items get 1.2x boost",
   },
   "Silvally-Ground": {
     "t1": "Ground",
@@ -12351,6 +12365,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
+    "mc": "RKS System - Memory items get 1.2x boost",
   },
   "Silvally-Ice": {
     "t1": "Ice",
@@ -12365,6 +12380,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
+    "mc": "RKS System - Memory items get 1.2x boost",
   },
   "Silvally-Poison": {
     "t1": "Poison",
@@ -12379,6 +12395,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
+    "mc": "RKS System - Memory items get 1.2x boost",
   },
   "Silvally-Psychic": {
     "t1": "Psychic",
@@ -12393,6 +12410,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
+    "mc": "RKS System - Memory items get 1.2x boost",
   },
   "Silvally-Rock": {
     "t1": "Rock",
@@ -12407,6 +12425,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
+    "mc": "RKS System - Memory items get 1.2x boost",
   },
   "Silvally-Steel": {
     "t1": "Steel",
@@ -12421,6 +12440,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
+    "mc": "RKS System - Memory items get 1.2x boost",
   },
   "Silvally-Water": {
     "t1": "Water",
@@ -12435,6 +12455,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
+    "mc": "RKS System - Memory items get 1.2x boost",
   },
   "Solgaleo": {
     "t1": "Psychic",
@@ -12612,6 +12633,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "ab": "Queenly Majesty",
     "nt": "Grass/Fairy",
     "ns": "+30Spe",
+    "mc": "Trop Kick - 80 base power, lowers target's Atk by 2 stage",
   },
   "Turtonator": {
     "t1": "Fire",
@@ -12628,6 +12650,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "ab": "Shell Armor",
     "na": "Solid Rock",
     "ns": "+30Hp",
+    "mc": "Shell Trap - 180 base power, Raises users defense by 3 stages",
   },
   "Type: Null": {
     "t1": "Normal",
@@ -12692,7 +12715,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 135,
       "sp": 30
     },
-    "w": 0.3
+    "w": 0.3,
+    "mc": "Schooling - School form drops to solo form at 10% Hp",
   },
   "Wishiwashi-School": {
     "t1": "Water",

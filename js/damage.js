@@ -143,8 +143,8 @@ function getDamageResult(attacker, defender, move, field) {
         description.attackerAbility = attacker.ability;
     }
 
-    var typeEffect1 = getMoveEffectiveness(move, defender.type1, attacker.ability === "Scrappy" || field.isForesight, field.isGravity);
-    var typeEffect2 = defender.type2 ? getMoveEffectiveness(move, defender.type2, attacker.ability === "Scrappy" || field.isForesight, field.isGravity) : 1;
+    var typeEffect1 = getMoveEffectiveness(move, defender.type1, attacker.ability === "Scrappy" || field.isForesight, field.isGravity, attacker.ability === "Corrosion");
+    var typeEffect2 = defender.type2 ? getMoveEffectiveness(move, defender.type2, attacker.ability === "Scrappy" || field.isForesight, field.isGravity, attacker.ability === "Corrosion") : 1;
     var typeEffectiveness = typeEffect1 * typeEffect2;
     var resistedKnockOffDamage = (defender.item === "" ||
             (defender.name === "Giratina-Origin" && defender.item === "Griseous Orb") ||
@@ -172,7 +172,7 @@ function getDamageResult(attacker, defender, move, field) {
     if ((defAbility === "Wonder Guard" && typeEffectiveness <= 1) ||
             (move.type === "Grass" && defAbility === "Sap Sipper") ||
             (move.type === "Fire" && defAbility.indexOf("Flash Fire") !== -1) ||
-            (move.type === "Water" && ["Dry Skin", "Storm Drain", "Water Absorb"].indexOf(defAbility) !== -1) ||
+            (move.type === "Water" && ["Dry Skin", "Storm Drain", "Water Absorb", "Water Compaction"].indexOf(defAbility) !== -1) ||
             (move.type === "Electric" && ["Lightning Rod", "Motor Drive", "Volt Absorb"].indexOf(defAbility) !== -1) ||
             (move.type === "Ground" && !field.isGravity && move.name !== "Thousand Arrows" && defAbility === "Levitate") ||
             (move.isBullet && defAbility === "Bulletproof") ||
@@ -704,7 +704,7 @@ function chainMods(mods) {
     return M;
 }
 
-function getMoveEffectiveness(move, type, isGhostRevealed, isGravity) {
+function getMoveEffectiveness(move, type, isGhostRevealed, isGravity, isCorrosion) {
     if (isGhostRevealed && type === "Ghost" && (move.type === "Normal" || move.type === "Fighting")) {
         return 1;
     } else if (isGravity && type === "Flying" && move.type === "Ground") {
@@ -713,7 +713,9 @@ function getMoveEffectiveness(move, type, isGhostRevealed, isGravity) {
         return 2;
     } else if (move.name === "Flying Press") {
         return typeChart["Fighting"][type] * typeChart["Flying"][type];
-    } else {
+    } else if (isCorrosion && type === "Steel" && move.type === "Poison") {
+		return 1;
+	} else {
         return typeChart[move.type][type];
     }
 }

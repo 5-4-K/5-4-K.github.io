@@ -363,8 +363,7 @@ function getDamageResult(attacker, defender, move, field) {
         (move.type === attacker.type1 || move.type === attacker.type2)) {
       bpMods.push( gen >= 7 ? 0x1333 : 0x1000);
       description.attackerItem = attacker.item;
-    }
-	else if (attacker.item.indexOf(" Memory") !== -1) {
+    } else if (attacker.ability.indexOf("RKS System") !== -1 && attacker.item.indexOf((move.type + " Memory")) !== -1) {
 		bpMods.push(0x1333);
 	}
     

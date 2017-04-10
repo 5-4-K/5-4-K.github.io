@@ -12202,7 +12202,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 100.5,
     "nm": "Recover",
-    "mc": "RKS System - Memory items get 1.2x boost",
+    "mc": "Memory items give 1.2x boost to moves of respective types",
   },
   "Silvally-Bug": {
     "t1": "Bug",
@@ -12217,7 +12217,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "RKS System - Memory items get 1.2x boost",
+    "mc": "Memory items give 1.2x boost to moves of respective types",
   },
   "Silvally-Dark": {
     "t1": "Dark",
@@ -12232,7 +12232,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "RKS System - Memory items get 1.2x boost",
+    "mc": "Memory items give 1.2x boost to moves of respective types",
   },
   "Silvally-Dragon": {
     "t1": "Dragon",
@@ -12247,7 +12247,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "RKS System - Memory items get 1.2x boost",
+    "mc": "Memory items give 1.2x boost to moves of respective types",
   },
   "Silvally-Electric": {
     "t1": "Electric",
@@ -12262,7 +12262,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "RKS System - Memory items get 1.2x boost",
+    "mc": "Memory items give 1.2x boost to moves of respective types",
   },
   "Silvally-Fairy": {
     "t1": "Fairy",
@@ -12277,7 +12277,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "RKS System - Memory items get 1.2x boost",
+    "mc": "Memory items give 1.2x boost to moves of respective types",
   },
   "Silvally-Fighting": {
     "t1": "Fighting",
@@ -12292,7 +12292,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "RKS System - Memory items get 1.2x boost",
+    "mc": "Memory items give 1.2x boost to moves of respective types",
   },
   "Silvally-Fire": {
     "t1": "Fire",
@@ -12307,7 +12307,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "RKS System - Memory items get 1.2x boost",
+    "mc": "Memory items give 1.2x boost to moves of respective types",
   },
   "Silvally-Flying": {
     "t1": "Flying",
@@ -12322,7 +12322,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "RKS System - Memory items get 1.2x boost",
+    "mc": "Memory items give 1.2x boost to moves of respective types",
   },
   "Silvally-Ghost": {
     "t1": "Ghost",
@@ -12337,7 +12337,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "RKS System - Memory items get 1.2x boost",
+    "mc": "Memory items give 1.2x boost to moves of respective types",
   },
   "Silvally-Grass": {
     "t1": "Grass",
@@ -12352,7 +12352,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "RKS System - Memory items get 1.2x boost",
+    "mc": "Memory items give 1.2x boost to moves of respective types",
   },
   "Silvally-Ground": {
     "t1": "Ground",
@@ -12367,7 +12367,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "RKS System - Memory items get 1.2x boost",
+    "mc": "Memory items give 1.2x boost to moves of respective types",
   },
   "Silvally-Ice": {
     "t1": "Ice",
@@ -12382,7 +12382,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "RKS System - Memory items get 1.2x boost",
+    "mc": "Memory items give 1.2x boost to moves of respective types",
   },
   "Silvally-Poison": {
     "t1": "Poison",
@@ -12397,7 +12397,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "RKS System - Memory items get 1.2x boost",
+    "mc": "Memory items give 1.2x boost to moves of respective types",
   },
   "Silvally-Psychic": {
     "t1": "Psychic",
@@ -12412,7 +12412,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "RKS System - Memory items get 1.2x boost",
+    "mc": "Memory items give 1.2x boost to moves of respective types",
   },
   "Silvally-Rock": {
     "t1": "Rock",
@@ -12427,7 +12427,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "RKS System - Memory items get 1.2x boost",
+    "mc": "Memory items give 1.2x boost to moves of respective types",
   },
   "Silvally-Steel": {
     "t1": "Steel",
@@ -12442,7 +12442,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "RKS System - Memory items get 1.2x boost",
+    "mc": "Memory items give 1.2x boost to moves of respective types",
   },
   "Silvally-Water": {
     "t1": "Water",
@@ -12457,7 +12457,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "RKS System - Memory items get 1.2x boost",
+    "mc": "Memory items give 1.2x boost to moves of respective types",
   },
   "Solgaleo": {
     "t1": "Psychic",

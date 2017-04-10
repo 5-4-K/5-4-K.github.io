@@ -3584,5 +3584,59 @@ var SETDEX_SM = {
 	},
 	"Wishiwashi": {
 		"Theorymon modification": {"level":100,"evs":{"hp":252,"sa":252,"sp":4},"nature":"Modest","ability":"Schooling","item":"Leftovers","moves":["Hydro Pump","Ice Beam","Hidden Power Fire","Scald"]},
+	},
+	"Silvally": {
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Jolly","ability":"RKS System","item":"Life Orb","moves":["Double-Edge","Recover"]},
+	},
+	"Silvally-Bug": {
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Jolly","ability":"RKS System","item":"Bug Memory","moves":["Multi-Attack","Recover"]},
+	},
+	"Silvally-Dark": {
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Jolly","ability":"RKS System","item":"Dark Memory","moves":["Multi-Attack","Recover"]},
+	},
+	"Silvally-Dragon": {
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Jolly","ability":"RKS System","item":"Dragon Memory","moves":["Multi-Attack","Recover"]},
+	},
+	"Silvally-Electric": {
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Jolly","ability":"RKS System","item":"Electric Memory","moves":["Multi-Attack","Recover"]},
+	},
+	"Silvally-Fairy": {
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Jolly","ability":"RKS System","item":"Fairy Memory","moves":["Multi-Attack","Recover"]},
+	},
+	"Silvally-Fighting": {
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Jolly","ability":"RKS System","item":"Fighting Memory","moves":["Multi-Attack","Recover"]},
+	},
+	"Silvally-Fire": {
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Jolly","ability":"RKS System","item":"Fire Memory","moves":["Multi-Attack","Recover"]},
+	},
+	"Silvally-Flying": {
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Jolly","ability":"RKS System","item":"Flying Memory","moves":["Multi-Attack","Recover"]},
+	},
+	"Silvally-Ghost": {
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Jolly","ability":"RKS System","item":"Ghost Memory","moves":["Multi-Attack","Recover"]},
+	},
+	"Silvally-Grass": {
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Jolly","ability":"RKS System","item":"Grass Memory","moves":["Multi-Attack","Recover"]},
+	},
+	"Silvally-Ground": {
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Jolly","ability":"RKS System","item":"Ground Memory","moves":["Multi-Attack","Recover"]},
+	},
+	"Silvally-Ice": {
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Jolly","ability":"RKS System","item":"Ice Memory","moves":["Multi-Attack","Recover"]},
+	},
+	"Silvally-Poison": {
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Jolly","ability":"RKS System","item":"Poison Memory","moves":["Multi-Attack","Recover"]},
+	},
+	"Silvally-Psychic": {
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Jolly","ability":"RKS System","item":"Psychic Memory","moves":["Multi-Attack","Recover"]},
+	},
+	"Silvally-Rock": {
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Jolly","ability":"RKS System","item":"Rock Memory","moves":["Multi-Attack","Recover"]},
+	},
+	"Silvally-Steel": {
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Jolly","ability":"RKS System","item":"Steel Memory","moves":["Multi-Attack","Recover"]},
+	},
+	"Silvally-Water": {
+		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Jolly","ability":"RKS System","item":"Water Memory","moves":["Multi-Attack","Recover"]},
 	}
 };

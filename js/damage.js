@@ -364,6 +364,9 @@ function getDamageResult(attacker, defender, move, field) {
       bpMods.push( gen >= 7 ? 0x1333 : 0x1000);
       description.attackerItem = attacker.item;
     }
+	else if (attacker.item.indexOf(" Memory") !== -1) {
+		bpMods.push(0x1333);
+	}
     
     if ((move.name === "Facade" && ["Burned","Paralyzed","Poisoned","Badly Poisoned"].indexOf(attacker.status) !== -1) ||
             (move.name === "Brine" && defender.curHP <= defender.maxHP / 2) ||

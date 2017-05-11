@@ -3079,7 +3079,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     'Shadow Punch': { zp: 120 },
     'Sheer Cold': { zp: 180 },
     'Shell Trap': {
-        bp: 180,
+        bp: 90,
         type: 'Fire',
         category: 'Special',
         isSpread: true,

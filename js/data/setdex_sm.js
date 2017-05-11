@@ -3585,6 +3585,9 @@ var SETDEX_SM = {
 	"Wishiwashi": {
 		"Theorymon modification": {"level":100,"evs":{"hp":252,"sa":252,"sp":4},"nature":"Modest","ability":"Schooling","item":"Leftovers","moves":["Hydro Pump","Ice Beam","Hidden Power Fire","Scald"]},
 	},
+	"Wishiwashi-School": {
+		"Theorymon modification": {"level":100,"evs":{"hp":252,"sa":252,"sp":4},"nature":"Modest","ability":"Schooling","item":"Leftovers","moves":["Hydro Pump","Ice Beam","Hidden Power Fire","Scald"]},
+	},
 	"Silvally": {
 		"Theorymon modification": {"level":100,"evs":{"hp":4,"at":252,"sp":252},"nature":"Jolly","ability":"RKS System","item":"Life Orb","moves":["Double-Edge","Recover"]},
 	},

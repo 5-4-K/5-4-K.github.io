@@ -12021,6 +12021,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 44.0,
     "na": "Adaptability",
+    "nm": "Wish",
+    "mc": "Sparkling Aria has heal bell effect and has 20% chance to reduce opponent's Atk by 1 stage."
   },
   "Pyukumuku": {
     "t1": "Water",
@@ -12045,7 +12047,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 85,
       "sp": 110
     },
-    "w": 21.0
+    "w": 21.0,
+    "mc": "Stoked Sparksurfer activate electric terrain.",
   },
   "Raticate-Alola": {
     "t1": "Dark",
@@ -12652,7 +12655,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "ab": "Shell Armor",
     "na": "Solid Rock",
     "ns": "+30Hp",
-    "mc": "Shell Trap - 180 base power, Raises users defense by 3 stages",
+    "mc": "Shell Trap - 90 base power, traps foe, restores 15% health.",
   },
   "Type: Null": {
     "t1": "Normal",
@@ -12718,7 +12721,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 30
     },
     "w": 0.3,
-    "mc": "Schooling - School form drops to solo form at 10% Hp",
+    "mc": "School Form drops to Solo Form at 10% HP instead of 25% HP, and has Analytic effect (1.2x if moves)",
   },
   "Wishiwashi-School": {
     "t1": "Water",
@@ -12730,7 +12733,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sd": 135,
       "sp": 30
     },
-    "w": 78.6
+    "w": 78.6,
+    "mc": "School Form drops to Solo Form at 10% HP instead of 25% HP, and has Analytic effect (1.2x if moves)",
   },
   "Xurkitree": {
     "t1": "Electric",
@@ -12783,5 +12787,43 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 610.0,
     "ab": "Power Construct"
+  }
+});
+
+
+POKEDEX_SM = $.extend(true, {}, POKEDEX_SM, {
+  "Machamp-Mega": {
+    "t1": "Fighting",
+    "t2": "Ground",
+    "bs": {
+      "hp": 216,
+      "at": 100,
+      "df": 121,
+      "sa": 91,
+      "sd": 95,
+      "sp": 85
+    },
+    "w": 130.0,
+    "ab": "Analytic",
+    "na": "Analytic",
+    "nm": "Drain Punch",
+    "ns": "90/ 175/ 120/ 65/ 125/ 30"
+  },
+  "Tauros-Mega": {
+    "t1": "Normal",
+    "t2": "Steel",
+    "bs": {
+      "hp": 75,
+      "at": 150,
+      "df": 115,
+      "sa": 40,
+      "sd": 75,
+      "sp": 135
+    },
+    "w": 88.0,
+    "ab": "No Guard",
+    "na": "No Guard",
+    "nm": "Mega Kick",
+    "ns": "75/ 150/ 115/ 40/ 75/ 135"
   }
 });

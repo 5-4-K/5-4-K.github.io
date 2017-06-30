@@ -2114,7 +2114,7 @@ var MOVES_BW = $.extend(true, {}, MOVES_DPP, {
         hasSecondaryEffect: true
     },
     'Relic Song': {
-        bp: 75,
+        bp: 40,
         type: 'Normal',
         category: 'Special',
         hasSecondaryEffect: true,
@@ -3030,7 +3030,7 @@ var MOVES_SM = $.extend(true, {}, MOVES_XY, {
     'Retaliate': { zp: 140 },
     'Return': { zp: 160 },
     'Revelation Dance': {
-        bp: 90,
+        bp: 120,
         type: 'Normal',
         category: 'Special',
         zp: 175

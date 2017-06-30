@@ -308,7 +308,7 @@ function getDamageResult(attacker, defender, move, field) {
                     move.category === "Physical")) {
         bpMods.push(0x1800);
         description.attackerAbility = attacker.ability;
-    } else if (attacker.ability === "Analytic" && turnOrder !== "FIRST") {
+    } else if ((attacker.ability === "Analytic" || attacker.ability === "Schooling") && turnOrder !== "FIRST") {
         bpMods.push(0x14CD);
         description.attackerAbility = attacker.ability;
     } else if (attacker.ability === "Sand Force" && field.weather === "Sand" && ["Rock","Ground","Steel"].indexOf(move.type) !== -1) {

@@ -852,6 +852,9 @@ var SETDEX_SM = {
 		"OU Electrium Z": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Jolly","ability":"Multiscale","item":"Electrium Z","moves":["Dragon Claw","Fire Punch","Thunder Punch","Dragon Dance"]},
 		"OU Flyinium Z": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Adamant","ability":"Multiscale","item":"Flyinium Z","moves":["Fly","Fire Punch","Extreme Speed","Dragon Dance"]},
 	},
+	"Drampa": {
+		"Theorymon modification": {"level":100,"evs":{"sd":8,"sa":252,"hp":248},"nature":"Modest","ability":"Berserk","item":"Life Orb","moves":["Draco Meteor","Fire Blast","Thunderbolt","Roost"]},
+	},
 	"Drapion": {
 		"ORAS RU Swords Dance": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Jolly","ability":"Battle Armor","item":"Lum Berry","moves":["Swords Dance","Knock Off","Poison Jab","Aqua Tail"]},
 		"ORAS RU Choice Scarf": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Adamant","ability":"Sniper","item":"Choice Scarf","moves":["Knock Off","Poison Jab","Pursuit","Earthquake"]},
@@ -1305,7 +1308,7 @@ var SETDEX_SM = {
 		"ORAS RU Physically Defensive": {"level":100,"evs":{"sd":4,"df":252,"hp":252},"nature":"Impish","ability":"Frisk","item":"Leftovers","moves":["Will-O-Wisp","Synthesis","Foul Play","Leech Seed"]},
 		"ORAS OU Defensive": {"level":100,"evs":{"sd":96,"df":160,"hp":252},"nature":"Impish","ability":"Frisk","item":"Leftovers","moves":["Will-O-Wisp","Leech Seed","Synthesis","Seed Bomb"]},
 		"ORAS Doubles Trick Room Setter": {"level":100,"evs":{"sd":172,"df":88,"hp":248},"ivs":{"sp":0},"nature":"Relaxed","ability":"Frisk","item":"Leftovers","moves":["Trick Room","Phantom Force","Will-O-Wisp","Leech Seed"]},
-		"Theorymon modification": {"level":100,"evs":{"sd":96,"df":160,"hp":252},"nature":"Impish","ability":"Frisk","item":"Ghostium Z","moves":["Trick-or-Treat","Leech Seed","Synthesis","Seed Bomb"]},
+		"Theorymon modification": {"level":100,"evs":{"sd":4,"at":252,"hp":252},"nature":"Adamant","ability":"Frisk","item":"Ghostium Z","moves":["Trick-or-Treat","Shadow Sneak","Rock Slide","Seed Bomb"]},
 	},
 	"Granbull": {
 		"ORAS RU Defensive": {"level":100,"evs":{"df":252,"at":8,"hp":248},"nature":"Impish","ability":"Intimidate","item":"Leftovers","moves":["Play Rough","Earthquake","Heal Bell","Roar"]},
@@ -2226,6 +2229,9 @@ var SETDEX_SM = {
 	"Oranguru": {
 		"VGC17 Trick Room": {"level":50,"evs":{"sd":92,"df":140,"hp":252,"sa":20},"ivs":{"sp":0},"nature":"Sassy","ability":"Inner Focus","item":"Mental Herb","moves":["Trick Room","Psychic","Instruct","Protect"]},
 	},
+	"Oricorio-Ghost": {
+		"Theorymon modification": {"level":100,"evs":{"sp":252,"sa":252,"df":4},"nature":"Timid","ability":"Dancer","item":"Choice Specs","moves":["Revelation Dance","Hurricane","Hidden Power Fighting","U-turn"]},
+	},
 	"Oshawott": {
 		"ORAS LC Croagunk Lure": {"level":5,"evs":{"sp":236,"sa":252},"nature":"Rash","ability":"Torrent","item":"Life Orb","moves":["Hydro Pump","Ice Beam","Air Slash","Aqua Jet"]},
 	},
@@ -2774,6 +2780,9 @@ var SETDEX_SM = {
 	},
 	"Shinx": {
 		"ORAS LC Intimidate Pivot": {"level":5,"evs":{"sd":4,"df":244,"at":76,"hp":156},"ivs":{"sp":0},"nature":"Relaxed","ability":"Intimidate","item":"Berry Juice","moves":["Wild Charge","Thief","Volt Switch","Toxic"]},
+	},
+	"Shiinotic": {
+		"Theorymon modification": {"level":100,"evs":{"sd":4,"df":252,"hp":252},"ivs":{"at":0},"nature":"Bold","ability":"Effect Spore","item":"Leftovers","moves":["Strength Sap","Spore","Leech Seed","Moonblast"]},
 	},
 	"Shroomish": {
 		"ORAS LC Tank": {"level":5,"evs":{"sd":116,"df":116,"at":196,"hp":36,"sa":36},"nature":"Adamant","ability":"Effect Spore","item":"Eviolite","moves":["Spore","Synthesis","Bullet Seed","Drain Punch"]},

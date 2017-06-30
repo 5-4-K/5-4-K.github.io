@@ -2478,6 +2478,9 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
         type: 'Bug'
     },
     'Storm Throw': { bp: 60 },
+    'Strength Sap': { 
+        type: 'Fairy',
+        givesHealth: true },
     'Struggle Bug': { bp: 50 },
     'Surf': { bp: 90 },
     'Synchronoise': { bp: 120 },

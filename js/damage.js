@@ -333,6 +333,9 @@ function getDamageResult(attacker, defender, move, field) {
     } else if (defAbility === "Fluffy" && move.makesContact && attacker.ability !== "Long Reach") {
         bpMods.push(0x800);
         description.defenderAbility = defAbility;
+    } else if (defAbility === "Gooey" && move.makesContact && attacker.ability !== "Long Reach") {
+        bpMods.push(0xD55);
+        description.defenderAbility = defAbility;
     }
     
     if (attacker.ability === "Sheer Force" && move.hasSecondaryEffect) {

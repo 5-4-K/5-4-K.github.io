@@ -107,7 +107,8 @@ var ABILITIES_XY = ABILITIES_BW.concat([
     'Protean',
     'Refrigerate',
     'Strong Jaw',
-    'Tough Claws'
+    'Tough Claws',
+    'Gooey'
 ]);
 
 var ABILITIES_SM = ABILITIES_XY.concat([

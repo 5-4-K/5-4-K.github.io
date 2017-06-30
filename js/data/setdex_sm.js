@@ -1267,7 +1267,7 @@ var SETDEX_SM = {
 		"ORAS OU Assault Vest": {"level":100,"evs":{"hp":240,"sp":16,"sa":252},"nature":"Modest","ability":"Sap Sipper","item":"Assault Vest","moves":["Draco Meteor","Fire Blast","Sludge Bomb","Earthquake"]},
 		"ORAS Doubles Special Garbage (Special Attacker)": {"level":100,"evs":{"df":8,"hp":72,"sp":176,"sa":252},"nature":"Modest","ability":"Sap Sipper","item":"Life Orb","moves":["Draco Meteor","Fire Blast","Thunderbolt","Protect"]},
 		"VGC17 Special Tank": {"level":50,"evs":{"sd":36,"df":164,"hp":252,"sp":4,"sa":52},"nature":"Modest","ability":"Sap Sipper","item":"Assault Vest","moves":["Dragon Pulse","Sludge Bomb","Thunderbolt","Flamethrower"]},
-		"Theorymon modification": {"level":100,"evs":{"hp":240,"sp":16,"sa":252},"nature":"Modest","ability":"Sap Sipper","item":"Assault Vest","moves":["Draco Meteor","Fire Blast","Sludge Bomb","Earthquake"]},
+		"Theorymon modification": {"level":100,"evs":{"hp":240,"sp":16,"sa":252},"nature":"Modest","ability":"Gooey","item":"Assault Vest","moves":["Draco Meteor","Fire Blast","Sludge Bomb","Earthquake"]},
 	},
 	"Goomy": {
 		"ORAS LC Gooey Pivot": {"level":5,"evs":{"sd":156,"df":236,"hp":76,"sp":36},"nature":"Bold","ability":"Gooey","item":"Eviolite","moves":["Draco Meteor","Sludge Wave","Rest","Sleep Talk"]},

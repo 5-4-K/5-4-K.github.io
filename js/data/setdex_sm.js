@@ -398,6 +398,9 @@ var SETDEX_SM = {
 		"ORAS NU Swords Dance": {"level":100,"evs":{"at":252,"hp":120,"sp":136},"nature":"Adamant","ability":"Sap Sipper","item":"Leftovers","moves":["Swords Dance","Return","Earthquake","Substitute"]},
 		"ORAS NU Choice Band": {"level":100,"evs":{"at":252,"hp":108,"sp":148},"nature":"Adamant","ability":"Sap Sipper","item":"Choice Band","moves":["Head Charge","Earthquake","Pursuit","Megahorn"]},
 	},
+	"Bouffalant-Mega": {
+		"Theorymon modification": {"level":100,"evs":{"at":252,"hp":4,"sp":252},"nature":"Jolly","ability":"Rock Head","item":"Pomeg Berry","moves":["Swords Dance","Return","Earthquake","Head Smash"]},
+	},
 	"Braviary": {
 		"ORAS RU Bulk Up": {"level":100,"evs":{"sd":168,"hp":252,"sp":88},"nature":"Careful","ability":"Defiant","item":"Leftovers","moves":["Substitute","Bulk Up","Brave Bird","Roost"]},
 		"ORAS RU Physical Attacker": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Adamant","ability":"Defiant","item":"Choice Band","moves":["Brave Bird","Return","Superpower","U-turn"]},
@@ -623,6 +626,7 @@ var SETDEX_SM = {
 		"ORAS UU Trick Room": {"level":100,"evs":{"sd":4,"hp":252,"sa":252},"ivs":{"sp":0},"nature":"Quiet","ability":"Mummy","item":"Leftovers","moves":["Trick Room","Shadow Ball","Nasty Plot","Hidden Power Fighting"]},
 		"ORAS OU Physical Wall": {"level":100,"evs":{"sd":4,"df":252,"hp":252},"nature":"Bold","ability":"Mummy","item":"Leftovers","moves":["Toxic Spikes","Pain Split","Hex","Will-O-Wisp"]},
 		"ORAS OU Offensive": {"level":100,"evs":{"df":4,"hp":252,"sa":252},"ivs":{"sp":0},"nature":"Quiet","ability":"Mummy","item":"Leftovers","moves":["Trick Room","Nasty Plot","Shadow Ball","Will-O-Wisp"]},
+		"Theorymon modification": {"level":100,"evs":{"df":4,"hp":252,"sa":252},"ivs":{"sp":0},"nature":"Quiet","ability":"Mummy","item":"Leftovers","moves":["Trick Room","Nasty Plot","Shadow Ball","Will-O-Wisp"]},
 	},
 	"Combusken": {
 		"ORAS PU Life Orb Attacker": {"level":100,"evs":{"df":4,"sp":252,"sa":252},"nature":"Timid","ability":"Speed Boost","item":"Life Orb","moves":["Fire Blast","Focus Blast","Hidden Power Ice","Protect"]},
@@ -1253,6 +1257,9 @@ var SETDEX_SM = {
 		"ORAS NU Stealth Rock": {"level":100,"evs":{"at":252,"hp":4,"sp":252},"nature":"Adamant","ability":"No Guard","item":"Colbur Berry","moves":["Stealth Rock","Earthquake","Ice Punch","Dynamic Punch"]},
 		"ORAS NU Wallbreaker": {"level":100,"evs":{"at":252,"hp":4,"sp":252},"nature":"Adamant","ability":"Iron Fist","item":"Choice Band","moves":["Earthquake","Shadow Punch","Ice Punch","Zen Headbutt"]},
 	},
+	"Golurk-Mega": {
+		"Theorymon modification": {"level":100,"evs":{"at":252,"hp":4,"sp":252},"nature":"Jolly","ability":"Clear Body","item":"Heavy Ball","moves":["Heavy Slam","Thunder Punch","Fire Punch","Shift Gear"]},
+	},
 	"Goodra": {
 		"ORAS UU Choice Band": {"level":100,"evs":{"at":252,"hp":212,"sp":44},"nature":"Adamant","ability":"Sap Sipper","item":"Choice Band","moves":["Outrage","Earthquake","Power Whip","Iron Tail"]},
 		"ORAS UU Choice Specs": {"level":100,"evs":{"hp":212,"sp":44,"sa":252},"nature":"Modest","ability":"Sap Sipper","item":"Choice Specs","moves":["Draco Meteor","Fire Blast","Sludge Bomb","Thunderbolt"]},
@@ -1260,6 +1267,7 @@ var SETDEX_SM = {
 		"ORAS OU Assault Vest": {"level":100,"evs":{"hp":240,"sp":16,"sa":252},"nature":"Modest","ability":"Sap Sipper","item":"Assault Vest","moves":["Draco Meteor","Fire Blast","Sludge Bomb","Earthquake"]},
 		"ORAS Doubles Special Garbage (Special Attacker)": {"level":100,"evs":{"df":8,"hp":72,"sp":176,"sa":252},"nature":"Modest","ability":"Sap Sipper","item":"Life Orb","moves":["Draco Meteor","Fire Blast","Thunderbolt","Protect"]},
 		"VGC17 Special Tank": {"level":50,"evs":{"sd":36,"df":164,"hp":252,"sp":4,"sa":52},"nature":"Modest","ability":"Sap Sipper","item":"Assault Vest","moves":["Dragon Pulse","Sludge Bomb","Thunderbolt","Flamethrower"]},
+		"Theorymon modification": {"level":100,"evs":{"hp":240,"sp":16,"sa":252},"nature":"Modest","ability":"Sap Sipper","item":"Assault Vest","moves":["Draco Meteor","Fire Blast","Sludge Bomb","Earthquake"]},
 	},
 	"Goomy": {
 		"ORAS LC Gooey Pivot": {"level":5,"evs":{"sd":156,"df":236,"hp":76,"sp":36},"nature":"Bold","ability":"Gooey","item":"Eviolite","moves":["Draco Meteor","Sludge Wave","Rest","Sleep Talk"]},
@@ -1294,6 +1302,7 @@ var SETDEX_SM = {
 		"ORAS RU Physically Defensive": {"level":100,"evs":{"sd":4,"df":252,"hp":252},"nature":"Impish","ability":"Frisk","item":"Leftovers","moves":["Will-O-Wisp","Synthesis","Foul Play","Leech Seed"]},
 		"ORAS OU Defensive": {"level":100,"evs":{"sd":96,"df":160,"hp":252},"nature":"Impish","ability":"Frisk","item":"Leftovers","moves":["Will-O-Wisp","Leech Seed","Synthesis","Seed Bomb"]},
 		"ORAS Doubles Trick Room Setter": {"level":100,"evs":{"sd":172,"df":88,"hp":248},"ivs":{"sp":0},"nature":"Relaxed","ability":"Frisk","item":"Leftovers","moves":["Trick Room","Phantom Force","Will-O-Wisp","Leech Seed"]},
+		"Theorymon modification": {"level":100,"evs":{"sd":96,"df":160,"hp":252},"nature":"Impish","ability":"Frisk","item":"Ghostium Z","moves":["Trick-or-Treat","Leech Seed","Synthesis","Seed Bomb"]},
 	},
 	"Granbull": {
 		"ORAS RU Defensive": {"level":100,"evs":{"df":252,"at":8,"hp":248},"nature":"Impish","ability":"Intimidate","item":"Leftovers","moves":["Play Rough","Earthquake","Heal Bell","Roar"]},
@@ -1435,6 +1444,9 @@ var SETDEX_SM = {
 	"Honchkrow": {
 		"UU Showdown Usage": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Adamant","ability":"Moxie","item":"Flyinium Z","moves":["Brave Bird","Sucker Punch","Superpower","Pursuit"]},
 		"ORAS UU Murderkrow": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Adamant","ability":"Moxie","item":"Life Orb","moves":["Brave Bird","Sucker Punch","Pursuit","Superpower"]},
+	},
+	"Honchkrow-Mega": {
+		"Theorymon modification": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Adamant","ability":"Magic Guard","item":"Dusk Ball","moves":["Brave Bird","Sucker Punch","Superpower","Swords Dance"]},
 	},
 	"Honedge": {
 		"LC Showdown Usage": {"level":5,"evs":{"sd":220,"df":36,"at":196,"sp":52},"nature":"Adamant","ability":"No Guard","item":"Eviolite","moves":["Shadow Sneak","Iron Head","Swords Dance","Sacred Sword"]},
@@ -1814,9 +1826,15 @@ var SETDEX_SM = {
 	"Luxray": {
 		"ORAS PU Choice Band": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Adamant","ability":"Intimidate","item":"Choice Band","moves":["Wild Charge","Ice Fang","Superpower","Volt Switch"]},
 	},
+	"Luxray-Mega": {
+		"Theorymon modification": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Jolly","ability":"Galvanize","item":"Kelpsy Berry","moves":["Return","Ice Fang","Superpower","Quick Attack"]},
+	},
 	"Machamp": {
 		"ORAS UU Assault Vest": {"level":100,"evs":{"at":252,"hp":172,"sp":84},"nature":"Adamant","ability":"No Guard","item":"Assault Vest","moves":["Dynamic Punch","Knock Off","Heavy Slam","Stone Edge"]},
 		"ORAS UU Choice Band": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Adamant","ability":"Guts","item":"Choice Band","moves":["Dynamic Punch","Knock Off","Heavy Slam","Stone Edge"]},
+	},
+	"Machamp-Mega": {
+		"Theorymon modification": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Adamant","ability":"Analytic","item":"Bluck Berry","moves":["Drain Punch","Knock Off","Earthquake","Stone Edge"]}
 	},
 	"Machoke": {
 		"ORAS NU Bulky Attacker": {"level":100,"evs":{"sd":212,"hp":252,"sp":44},"nature":"Careful","ability":"No Guard","item":"Eviolite","moves":["Dynamic Punch","Knock Off","Rest","Sleep Talk"]},
@@ -1860,6 +1878,7 @@ var SETDEX_SM = {
 	"Malamar": {
 		"ORAS NU RestTalk": {"level":100,"evs":{"sd":252,"df":4,"hp":252},"nature":"Careful","ability":"Contrary","item":"Leftovers","moves":["Knock Off","Superpower","Rest","Sleep Talk"]},
 		"ORAS RU Contrary Attacker": {"level":100,"evs":{"sd":108,"hp":248,"sp":152},"nature":"Jolly","ability":"Contrary","item":"Leftovers","moves":["Superpower","Knock Off","Rest","Sleep Talk"]},
+		"Theorymon modification": {"level":100,"evs":{"sd":108,"hp":248,"sp":152},"nature":"Jolly","ability":"Contrary","item":"Chesto Berry","moves":["Superpower","Knock Off","Topsy-Turvy","Rest"]},
 	},
 	"Mamoswine": {
 		"OU Wallbreaker": {"level":100,"evs":{"at":240,"sp":252,"sa":16},"nature":"Naive","ability":"Thick Fat","item":"Life Orb","moves":["Earthquake","Icicle Crash","Ice Shard","Freeze-Dry"]},
@@ -1953,6 +1972,7 @@ var SETDEX_SM = {
 		"ORAS UU Choice Scarf": {"level":100,"evs":{"df":4,"sp":252,"sa":252},"nature":"Timid","ability":"Serene Grace","item":"Choice Scarf","moves":["U-turn","Hyper Voice","Psychic","Trick"]},
 		"ORAS UU Cleric Support": {"level":100,"evs":{"sd":252,"df":4,"hp":252},"nature":"Calm","ability":"Serene Grace","item":"Leftovers","moves":["Perish Song","Hyper Voice","Heal Bell","Thunder Wave"]},
 		"ORAS UU En Pointe": {"level":100,"evs":{"at":252,"sp":216,"sa":40},"nature":"Naive","ability":"Serene Grace","item":"Life Orb","moves":["Relic Song","Close Combat","Return","Knock Off"]},
+		"Theorymon modification": {"level":100,"evs":{"at":252,"sp":216,"sa":40},"nature":"Naive","ability":"Serene Grace","item":"Life Orb","moves":["Relic Song","Close Combat","Return","Knock Off"]},
 	},
 	"Meloetta-Pirouette": {
 		"ORAS UU En Pointe": {"level":100,"evs":{"at":252,"sp":216,"sa":40},"nature":"Naive","ability":"Serene Grace","item":"Life Orb","moves":["Relic Song","Close Combat","Return","Knock Off"]},
@@ -2065,6 +2085,9 @@ var SETDEX_SM = {
 	},
 	"Mismagius": {
 		"ORAS NU Bulky Support": {"level":100,"evs":{"df":4,"hp":252,"sp":252},"nature":"Timid","ability":"Levitate","item":"Colbur Berry","moves":["Will-O-Wisp","Taunt","Hex","Pain Split"]},
+	},
+	"Mismagius-Mega": {
+		"Theorymon modification": {"level":100,"evs":{"df":4,"sa":252,"sp":252},"nature":"Timid","ability":"Levitate","item":"Moon Ball","moves":["Moonblast","Shadow Ball","Thunderbolt","Nasty Plot"]},
 	},
 	"Moltres": {
 		"ORAS UU Life Orb Attacker": {"level":100,"evs":{"df":4,"sp":252,"sa":252},"nature":"Timid","ability":"Pressure","item":"Life Orb","moves":["Fire Blast","Hurricane","Hidden Power Grass","Roost"]},
@@ -2348,7 +2371,7 @@ var SETDEX_SM = {
 	"Primarina": {
 		"UU Choice Specs": {"level":100,"evs":{"df":4,"sp":252,"sa":252},"nature":"Timid","ability":"Torrent","item":"Choice Specs","moves":["Hydro Pump","Moonblast","Psychic","Scald"]},
 		"OU Choice Specs": {"level":100,"evs":{"hp":172,"sp":84,"sa":252},"nature":"Modest","ability":"Torrent","item":"Choice Specs","moves":["Hydro Pump","Moonblast","Psychic","Hidden Power Fire"]},
-		"Theorymon modification": {"level":100,"evs":{"hp":252,"sp":4,"sa":252},"nature":"Modest","ability":"Adaptability","item":"Choice Specs","moves":["Hydro Pump","Moonblast","Psychic","Hidden Power Fire"]},
+		"Theorymon modification": {"level":100,"evs":{"hp":252,"sp":4,"sa":252},"nature":"Modest","ability":"Serene Grace","item":"Choice Specs","moves":["Sparkling Aria","Moonblast","Psychic","Wish"]},
 	},
 	"Primeape": {
 		"ORAS NU Choice Band": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Jolly","ability":"Defiant","item":"Choice Band","moves":["Close Combat","U-turn","Stone Edge","Earthquake"]},
@@ -2406,6 +2429,7 @@ var SETDEX_SM = {
 	"Raichu-Alola": {
 		"VGC17 Offensive Support": {"level":50,"evs":{"df":4,"sp":252,"sa":252},"nature":"Timid","ability":"Surge Surfer","item":"Psychium Z","moves":["Fake Out","Thunderbolt","Psychic","Protect"]},
 		"Monotype All-out Attacker (Electric)": {"level":100,"evs":{"sd":4,"sp":252,"sa":252},"ivs":{"hp":29},"nature":"Modest","ability":"Surge Surfer","item":"Life Orb","moves":["Thunderbolt","Psychic","Focus Blast","Grass Knot"]},
+		"Theorymon modification": {"level":100,"evs":{"sd":4,"sp":252,"sa":252},"ivs":{"hp":29},"nature":"Modest","ability":"Surge Surfer","item":"Life Orb","moves":["Thunderbolt","Psychic","Focus Blast","Grass Knot"]}
 	},
 	"Raikou": {
 		"UU Showdown Usage": {"level":100,"evs":{"sd":4,"sp":252,"sa":252},"nature":"Timid","ability":"Pressure","item":"Leftovers","moves":["Thunderbolt","Hidden Power Ice","Calm Mind","Volt Switch"]},
@@ -2508,6 +2532,9 @@ var SETDEX_SM = {
 		"UU Showdown Usage": {"level":100,"evs":{"sd":4,"sp":252,"sa":252},"nature":"Timid","ability":"Natural Cure","item":"Black Sludge","moves":["Sludge Bomb","Giga Drain","Spikes","Sleep Powder"]},
 		"ORAS UU Offensive Hazards": {"level":100,"evs":{"sd":4,"sp":252,"sa":252},"ivs":{"hp":29},"nature":"Timid","ability":"Natural Cure","item":"Black Sludge","moves":["Spikes","Sludge Bomb","Leaf Storm","Sleep Powder"]},
 		"ORAS UU Specially Defensive": {"level":100,"evs":{"sd":252,"hp":240,"sp":16},"nature":"Calm","ability":"Natural Cure","item":"Black Sludge","moves":["Synthesis","Spikes","Giga Drain","Sleep Powder"]},
+	},
+	"Roserade-Mega": {
+		"Theorymon modification": {"level":100,"evs":{"sd":4,"sp":252,"sa":252},"ivs":{"hp":29},"nature":"Timid","ability":"Technician","item":"Grepa Berry","moves":["Earth Power","Hidden Power Fire","Giga Drain","Synthesis"]}
 	},
 	"Rotom": {
 		"ORAS NU Choice Scarf": {"level":100,"evs":{"hp":4,"sp":252,"sa":252},"nature":"Timid","ability":"Levitate","item":"Choice Scarf","moves":["Volt Switch","Thunderbolt","Shadow Ball","Trick"]},
@@ -3139,6 +3166,9 @@ var SETDEX_SM = {
 		"ORAS NU Choice Band": {"level":100,"evs":{"at":252,"hp":4,"sp":252},"nature":"Adamant","ability":"Overgrow","item":"Choice Band","moves":["Wood Hammer","Earthquake","Stone Edge","Seed Bomb"]},
 		"ORAS RU Bulky Swords Dance": {"level":100,"evs":{"sd":180,"hp":252,"sp":76},"nature":"Careful","ability":"Overgrow","item":"Leftovers","moves":["Wood Hammer","Earthquake","Swords Dance","Synthesis"]},
 	},
+	"Torterra-Mega": {
+		"Theorymon modification": {"level":100,"evs":{"hp":252,"df":252,"at":4},"nature":"Impish","ability":"Regenerator","item":"Qualot Berry","moves":["Leech Seed","Thousand Waves","Seed Bomb","Synthesis"]},
+	},
 	"Totodile": {
 		"ORAS LC Dragon Dance": {"level":5,"evs":{"df":4,"at":236,"sp":252},"nature":"Adamant","ability":"Sheer Force","item":"Eviolite","moves":["Dragon Dance","Waterfall","Ice Punch","Superpower"]},
 		"ORAS LC Swords Dance": {"level":5,"evs":{"df":4,"at":236,"sp":252},"nature":"Adamant","ability":"Sheer Force","item":"Eviolite","moves":["Swords Dance","Waterfall","Ice Punch","Aqua Jet"]},
@@ -3417,6 +3447,9 @@ var SETDEX_SM = {
 		"ORAS UU Choice Specs": {"level":100,"evs":{"sd":4,"sp":252,"sa":252},"nature":"Timid","ability":"Tinted Lens","item":"Choice Specs","moves":["Bug Buzz","Air Slash","Giga Drain","U-turn"]},
 		"ORAS UU Speed Boost": {"level":100,"evs":{"sd":4,"sp":252,"sa":252},"nature":"Modest","ability":"Speed Boost","item":"Life Orb","moves":["Protect","Bug Buzz","Air Slash","Giga Drain"]},
 	},
+	"Yanmega-Mega": {
+		"Theorymon modification": {"level":100,"evs":{"sd":4,"sp":252,"sa":252},"nature":"Timid","ability":"Tinted Lens","item":"Hondew Berry","moves":["Protect","Bug Buzz","Dragon Pulse","Hidden Power Ground"]},
+	},
 	"Yungoos": {
 		"LC Pseudo-trapper": {"level":5,"evs":{"sd":36,"df":116,"at":196,"sp":156},"nature":"Adamant","ability":"Stakeout","item":"Berry Juice","moves":["Yawn","Pursuit","Return","Earthquake"]},
 	},
@@ -3428,6 +3461,7 @@ var SETDEX_SM = {
 	},
 	"Zangoose": {
 		"ORAS NU Toxic Orb Attacker": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Adamant","ability":"Toxic Boost","item":"Toxic Orb","moves":["Facade","Knock Off","Close Combat","Quick Attack"]},
+		"Theorymon modification": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Adamant","ability":"Toxic Boost","item":"Toxic Orb","moves":["Facade","Knock Off","Close Combat","Quick Attack"]},
 	},
 	"Zapdos": {
 		"OU Defensive": {"level":100,"evs":{"df":244,"hp":248,"sp":16},"nature":"Bold","ability":"Pressure","item":"Leftovers","moves":["Discharge","Roost","Heat Wave","Defog"]},
@@ -3449,6 +3483,7 @@ var SETDEX_SM = {
 		"ORAS UU Swords Dance": {"level":100,"evs":{"sd":4,"at":252,"sp":252},"nature":"Adamant","ability":"Illusion","item":"Focus Sash","moves":["Swords Dance","Sucker Punch","Knock Off","Low Kick"]},
 		"ORAS UU Nasty Plot": {"level":100,"evs":{"sd":4,"sp":252,"sa":252},"nature":"Timid","ability":"Illusion","item":"Life Orb","moves":["Nasty Plot","Dark Pulse","Focus Blast","Sludge Bomb"]},
 		"ORAS UU Mixed Attacker": {"level":100,"evs":{"at":196,"sp":216,"sa":96},"nature":"Naive","ability":"Illusion","item":"Life Orb","moves":["Sucker Punch","Knock Off","Low Kick","Sludge Bomb"]},
+		"Theorymon modification": {"level":100,"evs":{"at":196,"sp":216,"sa":96},"nature":"Naive","ability":"Illusion","item":"Life Orb","moves":["Sucker Punch","Knock Off","Low Kick","Sludge Bomb"]},
 	},
 	"Zorua": {
 		"ORAS LC Life Orb Attacker": {"level":5,"evs":{"sd":36,"df":36,"sp":236,"sa":196},"ivs":{"hp":0},"nature":"Timid","ability":"Illusion","item":"Life Orb","moves":["Nasty Plot","Dark Pulse","Extrasensory","U-turn"]},
@@ -3574,7 +3609,7 @@ var SETDEX_SM = {
 		"Theorymon modification": {"level":100,"evs":{"hp":252,"df":252,"sd":4},"nature":"Impish","ability":"Water Compaction","item":"Leftovers","moves":["Stealth Rock"]},
 	},
 	"Incineroar": {
-		"Theorymon modification": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Jolly","ability":"Intimidate","item":"Choice Scarf","moves":["Darkest Lariat","Flare Blitz","Sucker Punch","Earthquake"]},
+		"Theorymon modification": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Jolly","ability":"Tough Claws","item":"Choice Scarf","moves":["Darkest Lariat","Flare Blitz","Sucker Punch","Earthquake"]},
 	},
 	"Golem-Alola": {
 		"Theorymon modification": {"level":100,"evs":{"hp":252,"at":252,"sd":4},"nature":"Adamant","ability":"Magnet Pull","item":"Assault Vest","moves":["Earthquake","Wild Charge","Fire Punch","Stone Edge"]},

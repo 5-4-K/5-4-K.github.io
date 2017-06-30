@@ -1169,6 +1169,10 @@ var MOVES_ADV = $.extend(true, {}, MOVES_GSC, {
         bp: 0,
         type: 'Psychic'
     },
+    'Trick-or-Treat': {
+        bp: 0,
+        type: 'Ghost'
+    },
     'Uproar': {
         bp: 50,
         type: 'Normal',

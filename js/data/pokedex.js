@@ -5020,7 +5020,8 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
       "sd": 60,
       "sp": 90
     },
-    "w": 40.3
+    "w": 40.3,
+    "mc": "Toxic Boost also heals 12% HP when poisoned (besides original effects)"
   },
   "Zigzagoon": {
     "t1": "Normal",
@@ -7239,7 +7240,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 30
     },
     "w": 76.5,
-    "ab": "Mummy"
+    "ab": "Mummy",
+    "mc": "Mummy also boosts SpA by +1 stage when a Pokémon faints in front of Cofagrigus, same as Soul-Heart (keeps other effects). The Soul-Heart effect is also passed on by Mummy via contact"
   },
   "Conkeldurr": {
     "t1": "Fighting",
@@ -8117,7 +8119,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 90
     },
     "w": 6.5,
-    "ab": "Serene Grace"
+    "ab": "Serene Grace",
+    "mc": "Relic Song is 40 BP, +3 priority with 100% flinch chance, but can only be used on the first turn out (basically, special Fake Out)"
   },
   "Meloetta-P": {
     "t1": "Normal",
@@ -9107,14 +9110,15 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
     "t1": "Dark",
     "bs": {
       "hp": 60,
-      "at": 105,
+      "at": 115,
       "df": 60,
-      "sa": 120,
+      "sa": 130,
       "sd": 60,
-      "sp": 105
+      "sp": 115
     },
     "w": 81.1,
-    "ab": "Illusion"
+    "ab": "Illusion",
+    "ns": "+10 Atk, +10 SpA, +10 Spe"
   },
   "Zorua": {
     "t1": "Dark",
@@ -9687,7 +9691,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sd": 150,
       "sp": 80
     },
-    "w": 150.5
+    "w": 150.5,
+    "mc": "Gooey now also provides x1.2 reduction from contact damage (keeps other effects)"
   },
   "Goomy": {
     "t1": "Dragon",
@@ -9712,7 +9717,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sd": 75,
       "sp": 84
     },
-    "w": 10.0
+    "w": 10.0,
+    "mc": "Z-Trick-or-Treat boosts Atk, Def, SpA, SpD and Spe by 2 stages. This applies to all four forms of Gourgeist, and applies only to the Z-Move of Trick-or-Treat"
   },
   "Gourgeist-Large": {
     "t1": "Ghost",
@@ -9725,7 +9731,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sd": 75,
       "sp": 69
     },
-    "w": 10.0
+    "w": 10.0,
+    "mc": "Z-Trick-or-Treat boosts Atk, Def, SpA, SpD and Spe by 2 stages. This applies to all four forms of Gourgeist, and applies only to the Z-Move of Trick-or-Treat"
   },
   "Gourgeist-Small": {
     "t1": "Ghost",
@@ -9738,7 +9745,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sd": 75,
       "sp": 99
     },
-    "w": 10.0
+    "w": 10.0,
+    "mc": "Z-Trick-or-Treat boosts Atk, Def, SpA, SpD and Spe by 2 stages. This applies to all four forms of Gourgeist, and applies only to the Z-Move of Trick-or-Treat"
   },
   "Gourgeist-Super": {
     "t1": "Ghost",
@@ -9751,7 +9759,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sd": 75,
       "sp": 54
     },
-    "w": 10.0
+    "w": 10.0,
+    "mc": "Z-Trick-or-Treat boosts Atk, Def, SpA, SpD and Spe by 2 stages. This applies to all four forms of Gourgeist, and applies only to the Z-Move of Trick-or-Treat"
   },
   "Greninja": {
     "t1": "Water",
@@ -9909,7 +9918,8 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
       "sd": 75,
       "sp": 73
     },
-    "w": 47.0
+    "w": 47.0,
+    "mc": "Topsy-Turvy is now +1 priority"
   },
   "Abomasnow-Mega": {
     "t1": "Grass",
@@ -11230,6 +11240,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 100
     },
     "w": 0.3,
+    "mc": "Comfey gets auto x1.5 boost to Draining Kiss before STAB"
   },
   "Cosmoem": {
     "t1": "Psychic",
@@ -11349,14 +11360,16 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "t1": "Normal",
     "t2": "Dragon",
     "bs": {
-      "hp": 78,
+      "hp": 88,
       "at": 60,
-      "df": 85,
+      "df": 95,
       "sa": 135,
-      "sd": 91,
+      "sd": 101,
       "sp": 36
     },
     "w": 185.0,
+    "ns": "+10 HP, +10 Def, +10 SpD",
+    "mc": "Berserk boosts SpA by 3 stages when HP reaches below 50%"
   },
   "Diglett-Alola": {
     "t1": "Ground",
@@ -11437,7 +11450,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 316.0,
     "ab": "Galvanize",
     "nm": "Fire Punch",
-    "ns": "+15SpD, +15Spe",
+    "ns": "+15 SpD, +15 Spe",
     "nt": "Electric/Ground",
   },
   "Golisopod": {
@@ -11557,7 +11570,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 83.0,
     "nm": "Sucker Punch",
-    "ns": "+50Spe, -20SpA"
+    "ns": "+50 Spe, -20 SpA",
+    "na": "Tough Claws"
   },
   "Jangmo-o": {
     "t1": "Dragon",
@@ -11886,11 +11900,13 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "hp": 75,
       "at": 70,
       "df": 70,
-      "sa": 98,
+      "sa": 113,
       "sd": 70,
-      "sp": 93
+      "sp": 108
     },
-    "w": 3.4
+    "w": 3.4,
+    "ns": "+15 SpA, +15 Spe",
+    "mc": "Revelation Dance is now 120 BP"
   },
   "Oricorio-Fire": {
     "t1": "Fire",
@@ -11899,11 +11915,13 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "hp": 75,
       "at": 70,
       "df": 70,
-      "sa": 98,
+      "sa": 113,
       "sd": 70,
-      "sp": 93
+      "sp": 108
     },
-    "w": 3.4
+    "w": 3.4,
+    "ns": "+15 SpA, +15 Spe",
+    "mc": "Revelation Dance is now 120 BP"
   },
   "Oricorio-Ghost": {
     "t1": "Ghost",
@@ -11912,11 +11930,13 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "hp": 75,
       "at": 70,
       "df": 70,
-      "sa": 98,
+      "sa": 113,
       "sd": 70,
-      "sp": 93
+      "sp": 108
     },
-    "w": 3.4
+    "w": 3.4,
+    "ns": "+15 SpA, +15 Spe",
+    "mc": "Revelation Dance is now 120 BP"
   },
   "Oricorio-Psychic": {
     "t1": "Psychic",
@@ -11925,11 +11945,13 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "hp": 75,
       "at": 70,
       "df": 70,
-      "sa": 98,
+      "sa": 113,
       "sd": 70,
-      "sp": 93
+      "sp": 108
     },
-    "w": 3.4
+    "w": 3.4,
+    "ns": "+15 SpA, +15 Spe",
+    "mc": "Revelation Dance is now 120 BP"
   },
   "Palossand": {
     "t1": "Ghost",
@@ -11944,7 +11966,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 250.0,
     "nm": "Stealth Rock",
-    "mc": "Water Compaction - Water immunity with +1 Def and SpD boost",
+    "mc": "Water Compaction gives water immunity with +1 Def and SpD boost",
   },
   "Passimian": {
     "t1": "Fighting",
@@ -12020,9 +12042,9 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 60
     },
     "w": 44.0,
-    "na": "Adaptability",
+    "na": "Serene Grace",
     "nm": "Wish",
-    "mc": "Sparkling Aria has heal bell effect and has 20% chance to reduce opponent's Atk by 1 stage."
+    "mc": "Sparkling Aria damages (90 bp), has heal bell effect, 20% chance to reduce opponent's Atk by 1 stage."
   },
   "Pyukumuku": {
     "t1": "Water",
@@ -12048,7 +12070,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 110
     },
     "w": 21.0,
-    "mc": "Stoked Sparksurfer activate electric terrain.",
+    "mc": "Stoked Sparksurfer activates electric terrain.",
   },
   "Raticate-Alola": {
     "t1": "Dark",
@@ -12184,7 +12206,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "t1": "Grass",
     "t2": "Fairy",
     "bs": {
-      "hp": 60,
+      "hp": 90,
       "at": 45,
       "df": 80,
       "sa": 90,
@@ -12192,6 +12214,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 30
     },
     "w": 11.5,
+    "ns": "+30 Hp",
+    "mc": "Strength Sap is now +1 priority"
   },
   "Silvally": {
     "t1": "Normal",
@@ -12205,7 +12229,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 100.5,
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
   },
   "Silvally-Bug": {
     "t1": "Bug",
@@ -12220,7 +12244,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
   },
   "Silvally-Dark": {
     "t1": "Dark",
@@ -12235,7 +12259,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
   },
   "Silvally-Dragon": {
     "t1": "Dragon",
@@ -12250,7 +12274,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
   },
   "Silvally-Electric": {
     "t1": "Electric",
@@ -12265,7 +12289,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
   },
   "Silvally-Fairy": {
     "t1": "Fairy",
@@ -12280,7 +12304,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
   },
   "Silvally-Fighting": {
     "t1": "Fighting",
@@ -12295,7 +12319,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
   },
   "Silvally-Fire": {
     "t1": "Fire",
@@ -12310,7 +12334,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
   },
   "Silvally-Flying": {
     "t1": "Flying",
@@ -12325,7 +12349,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
   },
   "Silvally-Ghost": {
     "t1": "Ghost",
@@ -12340,7 +12364,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
   },
   "Silvally-Grass": {
     "t1": "Grass",
@@ -12355,7 +12379,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
   },
   "Silvally-Ground": {
     "t1": "Ground",
@@ -12370,7 +12394,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
   },
   "Silvally-Ice": {
     "t1": "Ice",
@@ -12385,7 +12409,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
   },
   "Silvally-Poison": {
     "t1": "Poison",
@@ -12400,7 +12424,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
   },
   "Silvally-Psychic": {
     "t1": "Psychic",
@@ -12415,7 +12439,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
   },
   "Silvally-Rock": {
     "t1": "Rock",
@@ -12430,7 +12454,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
   },
   "Silvally-Steel": {
     "t1": "Steel",
@@ -12445,7 +12469,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
   },
   "Silvally-Water": {
     "t1": "Water",
@@ -12460,7 +12484,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
   },
   "Solgaleo": {
     "t1": "Psychic",
@@ -12637,8 +12661,8 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 47.2,
     "ab": "Queenly Majesty",
     "nt": "Grass/Fairy",
-    "ns": "+30Spe",
-    "mc": "Trop Kick - 80 base power, lowers target's Atk by 2 stage",
+    "ns": "+30 Spe",
+    "mc": "Trop Kick has 80 base power",
   },
   "Turtonator": {
     "t1": "Fire",
@@ -12654,7 +12678,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 212.0,
     "ab": "Shell Armor",
     "na": "Solid Rock",
-    "ns": "+30Hp",
+    "ns": "+30 Hp",
     "mc": "Shell Trap - 90 base power, traps foe, restores 15% health.",
   },
   "Type: Null": {
@@ -12721,7 +12745,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "sp": 30
     },
     "w": 0.3,
-    "mc": "School Form drops to Solo Form at 10% HP instead of 25% HP, and has Analytic effect (1.2x if moves)",
+    "mc": "School Form drops to Solo Form at 10% HP instead of 25% HP, and has Analytic effect (1.2x bosst if moves last)",
   },
   "Wishiwashi-School": {
     "t1": "Water",
@@ -12796,12 +12820,12 @@ POKEDEX_SM = $.extend(true, {}, POKEDEX_SM, {
     "t1": "Fighting",
     "t2": "Ground",
     "bs": {
-      "hp": 216,
-      "at": 100,
-      "df": 121,
-      "sa": 91,
-      "sd": 95,
-      "sp": 85
+      "hp": 90,
+      "at": 175,
+      "df": 120,
+      "sa": 65,
+      "sd": 125,
+      "sp": 30
     },
     "w": 130.0,
     "ab": "Analytic",
@@ -12809,21 +12833,140 @@ POKEDEX_SM = $.extend(true, {}, POKEDEX_SM, {
     "nm": "Drain Punch",
     "ns": "90/ 175/ 120/ 65/ 125/ 30"
   },
-  "Tauros-Mega": {
-    "t1": "Normal",
-    "t2": "Steel",
+  "Torterra-Mega": {
+    "t1": "Grass",
+    "t2": "Ground",
     "bs": {
-      "hp": 75,
+      "hp": 95,
+      "at": 119,
+      "df": 145,
+      "sa": 60,
+      "sd": 125,
+      "sp": 81
+    },
+    "w": 310.0,
+    "ab": "Regenerator",
+    "na": "Regenerator",
+    "nm": "Thousand Waves",
+    "ns": "95/ 119/ 145/ 60/ 125/ 81"
+  },
+  "Luxray-Mega": {
+    "t1": "Electric",
+    "t2": "Dark",
+    "bs": {
+      "hp": 80,
       "at": 150,
-      "df": 115,
-      "sa": 40,
-      "sd": 75,
+      "df": 94,
+      "sa": 95,
+      "sd": 94,
+      "sp": 110
+    },
+    "w": 42.0,
+    "ab": "Galvanize",
+    "na": "Galvanize",
+    "nm": "Knock Off",
+    "ns": "80/ 150/ 94/ 95/ 94/ 110"
+  },
+  "Roserade-Mega": {
+    "t1": "Grass",
+    "t2": "Posion",
+    "bs": {
+      "hp": 60,
+      "at": 70,
+      "df": 95,
+      "sa": 145,
+      "sd": 135,
+      "sp": 110
+    },
+    "w": 14.5,
+    "ab": "Technician",
+    "na": "Technician",
+    "nm": "Earth Power",
+    "ns": "60/ 70/ 95/ 145/ 135/ 110"
+  },
+  "Mismagius-Mega": {
+    "t1": "Ghost",
+    "t2": "Fairy",
+    "bs": {
+      "hp": 60,
+      "at": 60,
+      "df": 80,
+      "sa": 135,
+      "sd": 125,
       "sp": 135
     },
-    "w": 88.0,
-    "ab": "No Guard",
-    "na": "No Guard",
-    "nm": "Mega Kick",
-    "ns": "75/ 150/ 115/ 40/ 75/ 135"
+    "w": 4.4,
+    "ab": "Levitate",
+    "na": "Levitate",
+    "nm": "Moonblast",
+    "ns": "60/ 60/ 80/ 135/ 125/ 135"
+  },
+  "Honchkrow-Mega": {
+    "t1": "Dark",
+    "t2": "Flying",
+    "bs": {
+      "hp": 100,
+      "at": 165,
+      "df": 72,
+      "sa": 105,
+      "sd": 72,
+      "sp": 91
+    },
+    "w": 27.3,
+    "ab": "Magic Guard",
+    "na": "Magic Guard",
+    "nm": "Swords Dance",
+    "ns": "100/ 165/ 72/ 105/ 72/ 91"
+  },
+  "Yanmega-Mega": {
+    "t1": "Bug",
+    "t2": "Dragon",
+    "bs": {
+      "hp": 86,
+      "at": 71,
+      "df": 91,
+      "sa": 156,
+      "sd": 96,
+      "sp": 115
+    },
+    "w": 51.5,
+    "ab": "Tinted Lens",
+    "na": "Tinted Lens",
+    "nm": "Dragon Pulse",
+    "ns": "86/ 71/ 91/ 156/ 96/ 115"
+  },
+  "Golurk-Mega": {
+    "t1": "Ghost",
+    "t2": "Steel",
+    "bs": {
+      "hp": 89,
+      "at": 140,
+      "df": 120,
+      "sa": 40,
+      "sd": 115,
+      "sp": 79
+    },
+    "w": 960.0,
+    "ab": "Clear Body",
+    "na": "Clear Body",
+    "nm": "Shift Gear",
+    "ns": "89/ 140/ 120/ 40/ 115/ 79"
+  },
+  "Bouffalant-Mega": {
+    "t1": "Normal",
+    "t2": "Rock",
+    "bs": {
+      "hp": 95,
+      "at": 155,
+      "df": 95,
+      "sa": 40,
+      "sd": 95,
+      "sp": 110
+    },
+    "w": 94.6,
+    "ab": "Rock Head",
+    "na": "Rock Head",
+    "nm": "Head Smash",
+    "ns": "95/ 155/ 95/ 40/ 95/ 110"
   }
 });

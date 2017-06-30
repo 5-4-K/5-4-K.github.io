@@ -12229,7 +12229,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     },
     "w": 100.5,
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates. Also, RKS System acts as auto Unaware (keeps other effects)",
   },
   "Silvally-Bug": {
     "t1": "Bug",
@@ -12244,7 +12244,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates. Also, RKS System acts as auto Unaware (keeps other effects)",
   },
   "Silvally-Dark": {
     "t1": "Dark",
@@ -12259,7 +12259,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates. Also, RKS System acts as auto Unaware (keeps other effects)",
   },
   "Silvally-Dragon": {
     "t1": "Dragon",
@@ -12274,7 +12274,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates. Also, RKS System acts as auto Unaware (keeps other effects)",
   },
   "Silvally-Electric": {
     "t1": "Electric",
@@ -12289,7 +12289,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates. Also, RKS System acts as auto Unaware (keeps other effects)",
   },
   "Silvally-Fairy": {
     "t1": "Fairy",
@@ -12304,7 +12304,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates. Also, RKS System acts as auto Unaware (keeps other effects)",
   },
   "Silvally-Fighting": {
     "t1": "Fighting",
@@ -12319,7 +12319,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates. Also, RKS System acts as auto Unaware (keeps other effects)",
   },
   "Silvally-Fire": {
     "t1": "Fire",
@@ -12334,7 +12334,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates. Also, RKS System acts as auto Unaware (keeps other effects)",
   },
   "Silvally-Flying": {
     "t1": "Flying",
@@ -12349,7 +12349,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates. Also, RKS System acts as auto Unaware (keeps other effects)",
   },
   "Silvally-Ghost": {
     "t1": "Ghost",
@@ -12364,7 +12364,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates. Also, RKS System acts as auto Unaware (keeps other effects)",
   },
   "Silvally-Grass": {
     "t1": "Grass",
@@ -12379,7 +12379,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates. Also, RKS System acts as auto Unaware (keeps other effects)",
   },
   "Silvally-Ground": {
     "t1": "Ground",
@@ -12394,7 +12394,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates. Also, RKS System acts as auto Unaware (keeps other effects)",
   },
   "Silvally-Ice": {
     "t1": "Ice",
@@ -12409,7 +12409,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates. Also, RKS System acts as auto Unaware (keeps other effects)",
   },
   "Silvally-Poison": {
     "t1": "Poison",
@@ -12424,7 +12424,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates. Also, RKS System acts as auto Unaware (keeps other effects)",
   },
   "Silvally-Psychic": {
     "t1": "Psychic",
@@ -12439,7 +12439,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates. Also, RKS System acts as auto Unaware (keeps other effects)",
   },
   "Silvally-Rock": {
     "t1": "Rock",
@@ -12454,7 +12454,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates. Also, RKS System acts as auto Unaware (keeps other effects)",
   },
   "Silvally-Steel": {
     "t1": "Steel",
@@ -12469,7 +12469,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates. Also, RKS System acts as auto Unaware (keeps other effects)",
   },
   "Silvally-Water": {
     "t1": "Water",
@@ -12484,7 +12484,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
     "w": 100.5,
     "ab": "RKS System",
     "nm": "Recover",
-    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates",
+    "mc": "Memory items give 1.2x boost to moves of respective types, just like plates. Also, RKS System acts as auto Unaware (keeps other effects)",
   },
   "Solgaleo": {
     "t1": "Psychic",

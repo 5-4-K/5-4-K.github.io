@@ -404,6 +404,8 @@ function getDamageResult(attacker, defender, move, field) {
     } else if (attacker.ability === "Tough Claws" && move.makesContact) {
         bpMods.push(0x14CD);
         description.attackerAbility = attacker.ability;
+    } else if (attacker.name === "Comfey" && move.name === "Draining Kiss") {
+        bpMods.push(0x1800);
     }
     
     var isAttackerAura = attacker.ability === (move.type + " Aura");

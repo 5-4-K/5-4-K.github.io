@@ -634,6 +634,9 @@ var SETDEX_SM = {
 		"ORAS NU Life Orb": {"level":100,"evs":{"df":4,"sp":252,"sa":252},"nature":"Timid","ability":"Speed Boost","item":"Life Orb","moves":["Fire Blast","Focus Blast","Protect","Hidden Power Electric"]},
 		"ORAS NU Swords Dance": {"level":100,"evs":{"df":4,"at":252,"sp":252},"nature":"Jolly","ability":"Speed Boost","item":"Eviolite","moves":["Swords Dance","Flare Blitz","Low Kick","Protect"]},
 	},
+	"Comfey": {
+		"Theorymon modification": {"level": 100, "evs":{"hp":252,"df":252,"sp":4},"ivs":{"at":0},"nature":"Bold","ability":"Triage","item":"Leftovers","moves":["Calm Mind","Draining Kiss","Synthesis","Taunt"]}
+	},
 	"Conkeldurr": {
 		"UU Showdown Usage": {"level":100,"evs":{"sd":4,"at":252,"hp":252},"nature":"Adamant","ability":"Guts","item":"Assault Vest","moves":["Mach Punch","Drain Punch","Knock Off","Ice Punch"]},
 		"ORAS UU Assault Vest": {"level":100,"evs":{"sd":252,"df":4,"at":252},"nature":"Adamant","ability":"Guts","item":"Assault Vest","moves":["Drain Punch","Knock Off","Thunder Punch","Mach Punch"]},

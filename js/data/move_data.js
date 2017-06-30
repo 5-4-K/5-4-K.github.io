@@ -2313,6 +2313,12 @@ var MOVES_XY = $.extend(true, {}, MOVES_BW, {
         makesContact: true
     },
     'Dragon Pulse': { bp: 85 },
+    'Draining Kiss': {
+        bp: 50,
+        type: 'Fairy',
+        category: 'Special',
+        givesHealth: true
+    },
     'Energy Ball': { bp: 90 },
     'Facade': { ignoresBurn: true },
     'Fire Blast': { bp: 110 },

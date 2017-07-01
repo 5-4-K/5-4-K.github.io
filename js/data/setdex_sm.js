@@ -1978,10 +1978,9 @@ var SETDEX_SM = {
 		"ORAS UU Choice Scarf": {"level":100,"evs":{"df":4,"sp":252,"sa":252},"nature":"Timid","ability":"Serene Grace","item":"Choice Scarf","moves":["U-turn","Hyper Voice","Psychic","Trick"]},
 		"ORAS UU Cleric Support": {"level":100,"evs":{"sd":252,"df":4,"hp":252},"nature":"Calm","ability":"Serene Grace","item":"Leftovers","moves":["Perish Song","Hyper Voice","Heal Bell","Thunder Wave"]},
 		"ORAS UU En Pointe": {"level":100,"evs":{"at":252,"sp":216,"sa":40},"nature":"Naive","ability":"Serene Grace","item":"Life Orb","moves":["Relic Song","Close Combat","Return","Knock Off"]},
-		"Theorymon modification": {"level":100,"evs":{"at":252,"sp":216,"sa":40},"nature":"Naive","ability":"Serene Grace","item":"Life Orb","moves":["Relic Song","Close Combat","Return","Knock Off"]},
 	},
-	"Meloetta-Pirouette": {
-		"ORAS UU En Pointe": {"level":100,"evs":{"at":252,"sp":216,"sa":40},"nature":"Naive","ability":"Serene Grace","item":"Life Orb","moves":["Relic Song","Close Combat","Return","Knock Off"]},
+	"Meloetta-P": {
+		"Theorymon modification": {"level":100,"evs":{"at":252,"sp":252,"df":4},"nature":"Jolly","ability":"Serene Grace","item":"Life Orb","moves":["Relic Song","Close Combat","Return","Knock Off"]},
 	},
 	"Meowstic-F": {
 		"ORAS PU Competitive(ly Terrible) Sweeper": {"level":100,"evs":{"df":4,"sp":252,"sa":252},"nature":"Timid","ability":"Competitive","item":"Life Orb","moves":["Psychic","Hidden Power Fighting","Shadow Ball","Thunder Wave"]},

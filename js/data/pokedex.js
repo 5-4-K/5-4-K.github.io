@@ -8134,7 +8134,8 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
       "sp": 128
     },
     "w": 6.5,
-    "ab": "Serene Grace"
+    "ab": "Serene Grace",
+    "mc": "Relic Song is 40 BP, +3 priority with 100% flinch chance, but can only be used on the first turn out (basically, special Fake Out)"
   },
   "Mienfoo": {
     "t1": "Fighting",

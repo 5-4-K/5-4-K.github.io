@@ -12924,9 +12924,9 @@ POKEDEX_SM = $.extend(true, {}, POKEDEX_SM, {
     "t2": "Dragon",
     "bs": {
       "hp": 86,
-      "at": 71,
-      "df": 91,
-      "sa": 156,
+      "at": 76,
+      "df": 96,
+      "sa": 146,
       "sd": 96,
       "sp": 115
     },

@@ -3459,7 +3459,7 @@ var SETDEX_SM = {
 		"ORAS UU Speed Boost": {"level":100,"evs":{"sd":4,"sp":252,"sa":252},"nature":"Modest","ability":"Speed Boost","item":"Life Orb","moves":["Protect","Bug Buzz","Air Slash","Giga Drain"]},
 	},
 	"Yanmega-Mega": {
-		"Theorymon modification": {"level":100,"evs":{"sd":4,"sp":252,"sa":252},"nature":"Timid","ability":"Tinted Lens","item":"Hondew Berry","moves":["Protect","Bug Buzz","Dragon Pulse","Hidden Power Ground"]},
+		"Theorymon modification": {"level":100,"evs":{"sd":4,"sp":252,"sa":252},"nature":"Modest","ability":"Tinted Lens","item":"Hondew Berry","moves":["Protect","Bug Buzz","Dragon Pulse","Hidden Power Ground"]},
 	},
 	"Yungoos": {
 		"LC Pseudo-trapper": {"level":5,"evs":{"sd":36,"df":116,"at":196,"sp":156},"nature":"Adamant","ability":"Stakeout","item":"Berry Juice","moves":["Yawn","Pursuit","Return","Earthquake"]},

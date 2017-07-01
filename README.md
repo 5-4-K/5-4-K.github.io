@@ -1,26 +1,28 @@
-Honko Damage Calculator
+Theorymon Damage Calculator
 =======================
 
-Damage Calculator for Pokemon cartridge battles, Gen 1-7.
-
-If you are currently looking at Zarel/honko-damagecalc and not a fork, this
-is the official repository for the Pokemon Showdown damage calculator:
-http://pokemonshowdown.com/damagecalc/
-
-Most notable for having all-vs-one (wall) and one-vs-all (sweeper) calcs.
-
+Edited version of the Honoko Damage Calculator for using in BD ou theorymon new tier.
 
 Instructions
 ------------
 
-Double-click `index.html`
+1. To apply modification to any pokemon, open js/data/pokedex.js. Find the name of the desired pokemon ( with ctrl+f. If a poekmon has different stat/typing/ability etc in different gens then it's name can be found multiple times, so go to the proper gen). Each pokemon are added in the following format.
 
-
-Credits and license
--------------------
-
-MIT License.
-
-Written by Honko. ORAS update by gamut-was-taken. SuMo update by Austin. PS theme by Zarel. Other
-contributions by other people; see the repo's commit history and contributor
-list for the full list.
+"Primarina": {
+    "t1": "Water",
+    "t2": "Fairy",
+    "bs": {
+      "hp": 80,
+      "at": 74,
+      "df": 74,
+      "sa": 126,
+      "sd": 116,
+      "sp": 60
+    },
+    "ab": "Serene Grace"
+    "w": 44.0
+  }
+  
+  't1' and 't2' are the primary and secondary typing, 'bs' is base stats, 'ab' is ability and 'w' is weight. Make necessary changes here.
+  
+  *IN PROGRESS*

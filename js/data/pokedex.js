@@ -11567,7 +11567,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
       "df": 90,
       "sa": 60,
       "sd": 90,
-      "sp": 110
+      "sp": 90
     },
     "w": 83.0,
     "nm": "Sucker Punch",
@@ -12893,8 +12893,8 @@ POKEDEX_SM = $.extend(true, {}, POKEDEX_SM, {
       "at": 60,
       "df": 80,
       "sa": 135,
-      "sd": 125,
-      "sp": 135
+      "sd": 135,
+      "sp": 125
     },
     "w": 4.4,
     "ab": "Levitate",
@@ -12907,9 +12907,9 @@ POKEDEX_SM = $.extend(true, {}, POKEDEX_SM, {
     "t2": "Flying",
     "bs": {
       "hp": 100,
-      "at": 165,
+      "at": 155,
       "df": 72,
-      "sa": 105,
+      "sa": 115,
       "sd": 72,
       "sp": 91
     },

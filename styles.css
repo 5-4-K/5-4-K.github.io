@@ -102,6 +102,45 @@ label {
     margin-top: 10px;
 }
 
+/* Goals section */
+.goals-section {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.goals-section h3 {
+    margin-top: 0;
+}
+.goal-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+.goal-row select {
+    margin-right: 10px;
+}
+.goal-row button {
+    background: red;
+    color: #fff;
+    border: none;
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.goal-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.goal-field label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
 /* Tables */
 table {
     width: 100%;

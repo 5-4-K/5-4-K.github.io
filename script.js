@@ -1,5 +1,5 @@
 // Teams in the league
-const teams = ["Team1", "Team2", "Team3", "Team4", "Team5"];
+const teams = ["GMT Warriors", "Orbitax Prime", "Fullstack FC", "Shadow Strikers FC", "Netsix and Kicks"];
 
 // Structure to hold match data and league standings
 let matches = []; // {id, teamA, teamB, scoreA, scoreB}

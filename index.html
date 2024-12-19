@@ -20,6 +20,7 @@
     <div class="tabs">
         <button class="tab-button active" data-tab="matches-tab">Matches</button>
         <button class="tab-button" data-tab="table-tab">Point Table</button>
+        <button class="tab-button" data-tab="player-stats-tab">Players Stats</button>
     </div>
 
     <div class="tab-content" id="matches-tab">
@@ -39,6 +40,12 @@
                     <option value="Netsix and Kicks">Netsix and Kicks</option>
                 </select>
 
+                <div class="goals-section">
+                    <h3>Team A Goals</h3>
+                    <div id="teamA-goals-container"></div>
+                    <button type="button" id="add-goal-teamA">Add Goal for Team A</button>
+                </div>
+
                 <label for="teamB">Team B:</label>
                 <select id="teamB" required>
                     <option value="">--Select Team--</option>
@@ -49,11 +56,11 @@
                     <option value="Netsix and Kicks">Netsix and Kicks</option>
                 </select>
 
-                <label for="scoreA">Team A Goals:</label>
-                <input type="number" id="scoreA" required min="0"/>
-
-                <label for="scoreB">Team B Goals:</label>
-                <input type="number" id="scoreB" required min="0"/>
+                <div class="goals-section">
+                    <h3>Team B Goals</h3>
+                    <div id="teamB-goals-container"></div>
+                    <button type="button" id="add-goal-teamB">Add Goal for Team B</button>
+                </div>
 
                 <button type="submit">Submit Result</button>
             </form>
@@ -97,6 +104,31 @@
                 </thead>
                 <tbody>
                 </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="tab-content" id="player-stats-tab" style="display:none;">
+        <div class="table-section">
+            <h2>Players Stats</h2>
+            <label for="player-stats-sort">Sort by:</label>
+            <select id="player-stats-sort">
+                <option value="name">Player Name</option>
+                <option value="team">Team Name</option>
+                <option value="goals">Goals</option>
+                <option value="assists">Assists</option>
+            </select>
+            <table id="players-table">
+                <thead>
+                    <tr>
+                        <th>Player Name</th>
+                        <th>Team Name</th>
+                        <th>Matches Played</th>
+                        <th>Goals</th>
+                        <th>Assists</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
             </table>
         </div>
     </div>

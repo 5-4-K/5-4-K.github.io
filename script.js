@@ -1,7 +1,12 @@
 // Teams in the league
-const teams = ["GMT Warriors", "Orbitax Prime", "Fullstack FC", "Shadow Strikers FC", "Netsix and Kicks"];
+const teams = [
+    "GMT Warriors", 
+    "Orbitax Prime", 
+    "Fullstack FC", 
+    "Shadow Strikers FC", 
+    "Netsix and Kicks"
+];
 
-// Structure to hold match data and league standings
 let matches = []; // {id, teamA, teamB, scoreA, scoreB}
 let standings = {};
 
@@ -19,7 +24,6 @@ function saveData() {
     localStorage.setItem("matches", JSON.stringify(matches));
 }
 
-// Reset all data
 function resetData() {
     if (confirm("Are you sure you want to reset all data?")) {
         matches = [];
@@ -50,7 +54,6 @@ function initStandings() {
 // Calculate standings from matches
 function calculateStandings() {
     initStandings();
-    // First populate basic team stats
     matches.forEach(match => {
         const {teamA, teamB, scoreA, scoreB} = match;
         // Update played
@@ -65,17 +68,14 @@ function calculateStandings() {
 
         // Determine points
         if (scoreA > scoreB) {
-            // A wins
             standings[teamA].won += 1;
-            standings[teamB].lost += 1;
             standings[teamA].points += 3;
+            standings[teamB].lost += 1;
         } else if (scoreB > scoreA) {
-            // B wins
             standings[teamB].won += 1;
-            standings[teamA].lost += 1;
             standings[teamB].points += 3;
+            standings[teamA].lost += 1;
         } else {
-            // draw
             standings[teamA].drawn += 1;
             standings[teamB].drawn += 1;
             standings[teamA].points += 1;
@@ -87,30 +87,6 @@ function calculateStandings() {
     Object.values(standings).forEach(s => {
         s.gd = s.gf - s.ga;
     });
-
-    // After basic sorting, we need to handle head-to-head if still tied
-    // Let's sort step-by-step
-}
-
-// Head-to-head tiebreaker
-// We will generate a sorting function that checks ties on points, gd, gf and then h2h
-function headToHeadSort(a,b) {
-    // Sort by points
-    if (a.points !== b.points) return b.points - a.points;
-    // Then GD
-    if (a.gd !== b.gd) return b.gd - a.gd;
-    // Then GF
-    if (a.gf !== b.gf) return b.gf - a.gf;
-
-    // Head-to-head:
-    // Extract matches where these two teams played each other
-    const [aRec, bRec] = calcHeadToHead(a.team, b.team);
-    // aRec and bRec are objects with points/gd/gf from their h2h matches
-    if (aRec.points !== bRec.points) return bRec.points - aRec.points;
-    if (aRec.gd !== bRec.gd) return bRec.gd - aRec.gd;
-    if (aRec.gf !== bRec.gf) return bRec.gf - aRec.gf;
-
-    return 0; // if still tied, just return 0
 }
 
 // Calculate head-to-head stats between two teams
@@ -150,6 +126,24 @@ function calcHeadToHead(teamX, teamY) {
     tX.gd = tX.gf - tX.ga;
     tY.gd = tY.gf - tY.ga;
     return [tX, tY];
+}
+
+// Head-to-head tiebreaker
+function headToHeadSort(a,b) {
+    // Sort by points
+    if (a.points !== b.points) return b.points - a.points;
+    // Then GD
+    if (a.gd !== b.gd) return b.gd - a.gd;
+    // Then GF
+    if (a.gf !== b.gf) return b.gf - a.gf;
+
+    // Head-to-head:
+    const [aRec, bRec] = calcHeadToHead(a.team, b.team);
+    if (aRec.points !== bRec.points) return bRec.points - aRec.points;
+    if (aRec.gd !== bRec.gd) return bRec.gd - aRec.gd;
+    if (aRec.gf !== bRec.gf) return bRec.gf - aRec.gf;
+
+    return 0; // if still tied, no change
 }
 
 function updateTable() {
@@ -204,7 +198,6 @@ function editMatch(id) {
     document.getElementById('scoreB').value = match.scoreB;
 }
 
-// Handle form submit
 document.getElementById("match-form").addEventListener("submit", function(e) {
     e.preventDefault();
     const matchId = document.getElementById("match-id").value.trim();
@@ -249,6 +242,40 @@ document.getElementById("match-form").addEventListener("submit", function(e) {
     this.reset();
 });
 
+// Tab functionality
+const tabButtons = document.querySelectorAll(".tab-button");
+const tabContents = document.querySelectorAll(".tab-content");
+
+tabButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        const targetTab = button.getAttribute("data-tab");
+        // Remove active class from all buttons
+        tabButtons.forEach(btn => btn.classList.remove("active"));
+        // Hide all tab contents
+        tabContents.forEach(tab => tab.style.display = "none");
+        // Show the selected tab
+        document.getElementById(targetTab).style.display = "block";
+        // Mark this button as active
+        button.classList.add("active");
+    });
+});
+
+// Menu toggle functionality
+const menuButton = document.getElementById('menu-button');
+const menuDropdown = document.getElementById('menu-dropdown');
+
+menuButton.addEventListener('click', () => {
+    menuDropdown.style.display = (menuDropdown.style.display === 'block') ? 'none' : 'block';
+});
+
+// Close the dropdown if user clicks outside
+document.addEventListener('click', (e) => {
+    if (!menuButton.contains(e.target) && !menuDropdown.contains(e.target)) {
+        menuDropdown.style.display = 'none';
+    }
+});
+
+// **Add this line to ensure the reset button works:**
 document.getElementById("reset-data").addEventListener("click", resetData);
 
 // On page load

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Intra Orbitax Futsal Tournament 2024</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <header>
+        <h1>Intra Orbitax Futsal Tournament 2024</h1>
+        <div class="menu-container">
+            <button id="menu-button" class="menu-button">☰</button>
+            <div class="menu-dropdown" id="menu-dropdown">
+                <button id="reset-data" class="reset-button">Reset All Data</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="tabs">
+        <button class="tab-button active" data-tab="matches-tab">Matches</button>
+        <button class="tab-button" data-tab="table-tab">Point Table</button>
+        <button class="tab-button" data-tab="player-stats-tab">Players Stats</button>
+    </div>
+
+    <div class="tab-content" id="matches-tab">
+        <div class="input-section">
+            <h2>Add or Edit Match Results</h2>
+            <form id="match-form">
+                <label for="match-id">Match ID (leave blank for new):</label>
+                <input type="text" id="match-id" name="match-id" placeholder="For editing existing match" />
+
+                <label for="teamA">Team A:</label>
+                <select id="teamA" required>
+                    <option value="">--Select Team--</option>
+                    <option value="GMT Warriors">GMT Warriors</option>
+                    <option value="Orbitax Prime">Orbitax Prime</option>
+                    <option value="Fullstack FC">Fullstack FC</option>
+                    <option value="Shadow Strikers FC">Shadow Strikers FC</option>
+                    <option value="Netsix and Kicks">Netsix and Kicks</option>
+                </select>
+
+                <div class="goals-section">
+                    <h3>Team A Goals</h3>
+                    <div id="teamA-goals-container"></div>
+                    <button type="button" id="add-goal-teamA">Add Goal for Team A</button>
+                </div>
+
+                <label for="teamB">Team B:</label>
+                <select id="teamB" required>
+                    <option value="">--Select Team--</option>
+                    <option value="GMT Warriors">GMT Warriors</option>
+                    <option value="Orbitax Prime">Orbitax Prime</option>
+                    <option value="Fullstack FC">Fullstack FC</option>
+                    <option value="Shadow Strikers FC">Shadow Strikers FC</option>
+                    <option value="Netsix and Kicks">Netsix and Kicks</option>
+                </select>
+
+                <div class="goals-section">
+                    <h3>Team B Goals</h3>
+                    <div id="teamB-goals-container"></div>
+                    <button type="button" id="add-goal-teamB">Add Goal for Team B</button>
+                </div>
+
+                <button type="submit">Submit Result</button>
+            </form>
+        </div>
+
+        <div class="matches-section">
+            <h2>All Matches</h2>
+            <table id="matches-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Team A</th>
+                        <th>Goals A</th>
+                        <th>Team B</th>
+                        <th>Goals B</th>
+                        <th>Edit</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="tab-content" id="table-tab" style="display:none;">
+        <div class="table-section">
+            <h2>League Table</h2>
+            <table id="league-table">
+                <thead>
+                    <tr>
+                        <th>Pos</th>
+                        <th>Team</th>
+                        <th>Played</th>
+                        <th>Won</th>
+                        <th>Drawn</th>
+                        <th>Lost</th>
+                        <th>GF</th>
+                        <th>GA</th>
+                        <th>GD</th>
+                        <th>Points</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="tab-content" id="player-stats-tab" style="display:none;">
+        <div class="table-section">
+            <h2>Players Stats</h2>
+            <label for="player-stats-sort">Sort by:</label>
+            <select id="player-stats-sort">
+                <option value="name">Player Name</option>
+                <option value="team">Team Name</option>
+                <option value="goals">Goals</option>
+                <option value="assists">Assists</option>
+            </select>
+            <table id="players-table">
+                <thead>
+                    <tr>
+                        <th>Player Name</th>
+                        <th>Team Name</th>
+                        <th>Matches Played</th>
+                        <th>Goals</th>
+                        <th>Assists</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
